@@ -9,10 +9,10 @@ Status legend:
 
 ## getting-started
 
-- [ ] Introduction
-- [ ] Why Effect?
-- [ ] Installation
-- [ ] Devtools
+- [x] Introduction
+- [x] Why Effect?
+- [x] Installation
+- [x] Devtools
 - [x] Importing Effect
 - [x] The Effect Type
 - [x] Creating Effects
