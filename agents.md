@@ -15,7 +15,7 @@ The documentation content is extracted from `llms-full.txt`, then organized into
 - Group documentation into nested sections: `major section -> subsection`.
 - Follow the same grouping pattern already used in the current documentation layout.
 - Keep related topics together so navigation and LLM retrieval remain predictable.
-- Whenever a documentation file is generated, update `what-docs-are-completed/completed-subsections.md`.
+- Whenever a documentation file is generated, update `completed-subsections.md` in the project root.
 - In that tracker, record completion under the correct `major section -> subsection`.
 
 # Major Sections
@@ -25,8 +25,8 @@ Treat the following as major sections (top-level groups) for documentation organ
 - `getting-started`
 - `error-management`
 - `requirements-management`
+- `resource-management`
 - `observability`
-- `configuration`
 - `runtime`
 - `scheduling`
 - `state-management`
@@ -39,8 +39,7 @@ Treat the following as major sections (top-level groups) for documentation organ
 - `code-style`
 - `data-types`
 - `traits`
-- `behaviours`
 - `schema`
-- `platform`
 - `ai`
 - `micro`
+- `platform`
