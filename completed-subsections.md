@@ -38,69 +38,69 @@ Status legend:
 
 ## requirements-management
 
-- [ ] Managing Services
-- [ ] Default Services
-- [ ] Managing Layers
-- [ ] Layer Memoization
+- [x] Managing Services
+- [x] Default Services
+- [x] Managing Layers
+- [x] Layer Memoization
 
 ## resource-management
 
-- [ ] Introduction
-- [ ] Scope
+- [x] Introduction
+- [x] Scope
 
 ## observability
 
-- [ ] Logging
-- [ ] Metrics
-- [ ] Tracing
-- [ ] Supervisor
+- [x] Logging
+- [x] Metrics
+- [x] Tracing
+- [x] Supervisor
 
 ## runtime
 
-- [ ] Runtime
+- [x] Runtime
 
 ## scheduling
 
-- [ ] Configuration
-- [ ] Runtime
-- [ ] Introduction
-- [ ] Repetition
-- [ ] Built-In Schedules
-- [ ] Schedule Combinators
-- [ ] Cron
-- [ ] Examples
+- [x] Configuration
+- [x] Runtime
+- [x] Introduction
+- [x] Repetition
+- [x] Built-In Schedules
+- [x] Schedule Combinators
+- [x] Cron
+- [x] Examples
 
 ## state-management
 
-- [ ] Ref
-- [ ] SynchronizedRef
-- [ ] SubscriptionRef
+- [x] Ref
+- [x] SynchronizedRef
+- [x] SubscriptionRef
 
 ## batching
 
-- [ ] Batching
+- [x] Batching
 
 ## caching
 
-- [ ] Caching Effects
-- [ ] Cache
+- [x] Caching Effects
+- [x] Cache
 
 ## concurrency
 
-- [ ] Basic Concurrency
-- [ ] Fibers
-- [ ] Deferred
-- [ ] Queue
-- [ ] PubSub
-- [ ] Semaphore
-- [ ] Latch
+- [x] Basic Concurrency
+- [x] Fibers
+- [x] Deferred
+- [x] Queue
+- [x] PubSub
+- [x] Semaphore
+- [x] Latch
 
 ## stream
 
-- [ ] Introduction
-- [ ] Creating Streams
-- [ ] Consuming Streams
-- [ ] Error Handling
+- [x] Introduction
+- [x] Creating Streams
+- [x] Consuming Streams
+- [x] Error Handling
 - [ ] Operations
 - [ ] Resourceful Streams
 
