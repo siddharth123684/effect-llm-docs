@@ -1,3 +1,8 @@
+---
+title: Path
+description: Platform-abstracted file path operations including join, resolve, normalize, and parse.
+---
+
 # Path
 
 Source: extracted from `llms-full.txt` (`Path`).

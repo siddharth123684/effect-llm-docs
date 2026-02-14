@@ -1,3 +1,8 @@
+---
+title: Scope
+description: How Scope manages resource lifetimes and finalizers in Effect, including acquireRelease and manual control.
+---
+
 # Scope
 
 Source: extracted from `llms-full.txt` (`Scope`).

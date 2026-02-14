@@ -1,3 +1,8 @@
+---
+title: Equivalence
+description: Schema.equivalence generates value comparison functions from schema rules with custom annotations.
+---
+
 # Equivalence
 
 Source: extracted from `llms-full.txt` (`Schema to Equivalence`).

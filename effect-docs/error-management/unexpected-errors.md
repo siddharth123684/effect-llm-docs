@@ -1,3 +1,8 @@
+---
+title: Unexpected Errors
+description: Defects and unrecoverable failures outside the typed error channel.
+---
+
 # Unexpected Errors
 
 Source: extracted from `llms-full.txt` (`Unexpected Errors`).

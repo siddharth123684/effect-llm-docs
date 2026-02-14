@@ -1,3 +1,8 @@
+---
+title: Runtime
+description: How schedules are evaluated at runtime for repeat and retry behavior in Effect.
+---
+
 # Runtime
 
 Source: extracted from `llms-full.txt` (`Runtime`).

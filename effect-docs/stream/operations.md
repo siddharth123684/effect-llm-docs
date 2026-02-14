@@ -1,3 +1,8 @@
+---
+title: Operations
+description: Common Stream operators for observing, transforming, combining, partitioning, and rate-controlling stream values.
+---
+
 # Operations
 
 Source: extracted from `llms-full.txt` (`Operations`).

@@ -1,3 +1,8 @@
+---
+title: Repetition
+description: How to repeat successful effects multiple times using Effect.repeat and schedules.
+---
+
 # Repetition
 
 Source: extracted from `llms-full.txt` (`Repetition`).

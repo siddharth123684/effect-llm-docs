@@ -1,3 +1,8 @@
+---
+title: PubSub
+description: Asynchronous broadcast hub for fan-out broadcasting to multiple subscribers.
+---
+
 # PubSub
 
 Source: extracted from `llms-full.txt` (`PubSub`).

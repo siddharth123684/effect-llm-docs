@@ -1,3 +1,8 @@
+---
+title: Dual APIs
+description: Data-last and data-first calling styles in Effect for pipeline and direct usage.
+---
+
 # Dual APIs
 
 Source: extracted from `llms-full.txt` (`Dual APIs`).

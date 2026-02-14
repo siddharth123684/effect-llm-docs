@@ -1,3 +1,8 @@
+---
+title: Cron
+description: Calendar-based schedules using UNIX cron expressions in Effect.
+---
+
 # Cron
 
 Source: extracted from `llms-full.txt` (`Cron`).

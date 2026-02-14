@@ -1,3 +1,8 @@
+---
+title: Execution Planning for LLMs
+description: ExecutionPlan for retries, fallback models, and structured error handling in LLM interactions.
+---
+
 # Execution Planning for LLMs
 
 The `ExecutionPlan` module provides structured error handling, retries, and provider fallbacks for LLM interactions.

@@ -1,3 +1,8 @@
+---
+title: Using Generators
+description: Effect.gen for async/await-style effectful workflows with yield* for sequencing.
+---
+
 # Using Generators
 
 Source: extracted from `llms-full.txt` (`Using Generators`).

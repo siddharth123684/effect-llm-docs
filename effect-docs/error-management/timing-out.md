@@ -1,3 +1,8 @@
+---
+title: Timing Out
+description: Timeout operators to bound effect execution time and handle stalled operations.
+---
+
 # Timing Out
 
 Source: extracted from `llms-full.txt` (`Timing Out`).

@@ -1,3 +1,8 @@
+---
+title: Micro for Effect Users
+description: Migration guide from Effect to Micro with API differences and compatibility notes.
+---
+
 # Micro for Effect Users
 
 Source: extracted from `llms-full.txt` (`Micro for Effect Users`).

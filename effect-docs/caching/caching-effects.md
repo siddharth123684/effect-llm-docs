@@ -1,3 +1,8 @@
+---
+title: Caching Effects
+description: Helpers for memoizing effectful computations: cachedFunction, once, cached, and cachedWithTTL.
+---
+
 # Caching Effects
 
 Source: extracted from `llms-full.txt` (`Caching Effects`).

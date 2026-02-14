@@ -1,3 +1,8 @@
+---
+title: Introduction
+description: Sink as a consumer of stream elements that produces a result and may leave leftovers.
+---
+
 # Introduction
 
 Source: extracted from `llms-full.txt` (`Introduction`).

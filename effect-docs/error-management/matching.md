@@ -1,3 +1,8 @@
+---
+title: Matching
+description: Effect.match and matchCause for handling success and failure branches in one place.
+---
+
 # Matching
 
 Source: extracted from `llms-full.txt` (`Matching`).

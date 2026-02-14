@@ -1,3 +1,8 @@
+---
+title: TestClock
+description: Deterministic time control for tests using adjust and setTime instead of real time.
+---
+
 # TestClock
 
 Source: extracted from `llms-full.txt` (`TestClock`).

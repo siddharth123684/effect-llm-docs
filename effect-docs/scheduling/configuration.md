@@ -1,3 +1,8 @@
+---
+title: Configuration
+description: How to configure schedules and combinators for retry and repeat behavior in Effect.
+---
+
 # Configuration
 
 Source: extracted from `llms-full.txt` (`Configuration`).

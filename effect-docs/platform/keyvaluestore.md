@@ -1,3 +1,8 @@
+---
+title: KeyValueStore
+description: Effectful key-value storage interface with typed schemas and optional persistence layers.
+---
+
 # KeyValueStore
 
 Source: extracted from `llms-full.txt` (`KeyValueStore`).

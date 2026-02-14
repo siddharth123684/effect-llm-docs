@@ -1,3 +1,8 @@
+---
+title: Guidelines
+description: Effect style guidelines for runMain entrypoints and avoiding tacit combinator usage.
+---
+
 # Guidelines
 
 Source: extracted from `llms-full.txt` (`Guidelines`).

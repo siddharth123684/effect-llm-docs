@@ -1,3 +1,8 @@
+---
+title: Introduction
+description: Effect AI provides provider-agnostic LLM abstractions with testability, concurrency, and observability.
+---
+
 # Introduction
 
 Source: extracted from `llms-full.txt` (`Introduction to Effect AI`).

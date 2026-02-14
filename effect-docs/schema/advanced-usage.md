@@ -1,3 +1,8 @@
+---
+title: Advanced Usage
+description: Custom data types, brands, optional/required properties, extending schemas, and recursion.
+---
+
 # Advanced Usage
 
 Source: extracted from `llms-full.txt` (`Advanced Usage`).

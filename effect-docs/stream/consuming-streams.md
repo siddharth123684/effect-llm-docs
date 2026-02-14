@@ -1,3 +1,8 @@
+---
+title: Consuming Streams
+description: Running streams to produce results with runCollect, runForEach, runFold, and sink-driven consumption.
+---
+
 # Consuming Streams
 
 Source: extracted from `llms-full.txt` (`Consuming Streams`).

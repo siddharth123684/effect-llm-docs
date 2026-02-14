@@ -1,3 +1,8 @@
+---
+title: SubscriptionRef
+description: SynchronizedRef with a stream of changes for reactive shared-state workflows.
+---
+
 # SubscriptionRef
 
 Source: extracted from `llms-full.txt` (`SubscriptionRef`).

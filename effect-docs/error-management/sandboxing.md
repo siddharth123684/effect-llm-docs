@@ -1,3 +1,8 @@
+---
+title: Sandboxing
+description: Effect.sandbox for exposing full Cause structure including defects and interruptions.
+---
+
 # Sandboxing
 
 Source: extracted from `llms-full.txt` (`Sandboxing`).

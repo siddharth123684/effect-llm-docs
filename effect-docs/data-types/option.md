@@ -1,3 +1,8 @@
+---
+title: Option
+description: Option models optional values with Some and None cases for partial results and optional fields.
+---
+
 # Option
 
 Source: extracted from `llms-full.txt` (`Option`).

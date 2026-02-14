@@ -1,3 +1,8 @@
+---
+title: Projections
+description: typeSchema and encodedSchema for deriving Type or Encoded views from existing schemas.
+---
+
 # Projections
 
 Source: extracted from `llms-full.txt` (`Schema Projections`).

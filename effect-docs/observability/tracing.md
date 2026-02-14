@@ -1,3 +1,8 @@
+---
+title: Tracing
+description: How to instrument Effect programs with spans and traces using OpenTelemetry integration.
+---
+
 # Tracing
 
 Source: extracted from `llms-full.txt` (`Tracing`).

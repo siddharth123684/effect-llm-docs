@@ -1,3 +1,8 @@
+---
+title: Command
+description: How to run external processes as Effect values with composable, testable execution.
+---
+
 # Command
 
 Source: extracted from `llms-full.txt` (`Command`).

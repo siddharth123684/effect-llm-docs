@@ -1,3 +1,8 @@
+---
+title: Control Flow Operators
+description: Effect helpers for branching, conditional execution, combining effects, and typed looping.
+---
+
 # Control Flow Operators
 
 Source: extracted from `llms-full.txt` (`Control Flow Operators`).

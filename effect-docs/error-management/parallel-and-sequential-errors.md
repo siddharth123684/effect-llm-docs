@@ -1,3 +1,8 @@
+---
+title: Parallel and Sequential Errors
+description: How Effect preserves parallel and sequential failure causes in execution.
+---
+
 # Parallel and Sequential Errors
 
 Source: extracted from `llms-full.txt` (`Parallel and Sequential Errors`).

@@ -1,3 +1,8 @@
+---
+title: Error Channel Operations
+description: Transforming, filtering, and inspecting failures with mapError, filterOrFail, and tapError.
+---
+
 # Error Channel Operations
 
 Source: extracted from `llms-full.txt` (`Error Channel Operations`).

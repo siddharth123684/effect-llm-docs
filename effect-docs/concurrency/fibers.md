@@ -1,3 +1,8 @@
+---
+title: Fibers
+description: Lightweight virtual threads for low-overhead concurrency with cooperative scheduling and interruption.
+---
+
 # Fibers
 
 Source: extracted from `llms-full.txt` (`Fibers`).

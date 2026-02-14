@@ -1,3 +1,8 @@
+---
+title: Effect Data Types
+description: Schema adapters for Data, Config, Option, Either, Exit, collections, Duration, and Redacted.
+---
+
 # Effect Data Types
 
 Source: extracted from `llms-full.txt` (`Effect Data Types`).

@@ -1,3 +1,8 @@
+---
+title: Creating Sinks
+description: Sink constructors for selection, aggregation, collecting, folding, and effectful consumption.
+---
+
 # Creating Sinks
 
 Source: extracted from `llms-full.txt` (`Creating Sinks`).

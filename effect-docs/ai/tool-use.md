@@ -1,3 +1,8 @@
+---
+title: Tool Use in Effect AI
+description: Type-safe Tool and Toolkit abstractions for LLM tool calling with Schema validation and Effect-native implementations.
+---
+
 # Tool Use in Effect AI
 
 Effect provides a type-safe `Toolkit` abstraction for LLMs to invoke external functions (Tool Calling).

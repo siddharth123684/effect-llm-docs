@@ -1,3 +1,8 @@
+---
+title: Leftovers
+description: Handling unconsumed Sink input with collectLeftover and ignoreLeftover.
+---
+
 # Leftovers
 
 Source: extracted from `llms-full.txt` (`Leftovers`).

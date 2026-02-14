@@ -1,3 +1,8 @@
+---
+title: Branded Types
+description: Effect Brand module for distinct compile-time types from primitive representations.
+---
+
 # Branded Types
 
 Source: extracted from `llms-full.txt` (`Branded Types`).

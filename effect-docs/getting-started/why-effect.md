@@ -1,3 +1,8 @@
+---
+title: Why Effect?
+description: Rationale for Effect's explicit modeling of errors, dependencies, and success values in types.
+---
+
 # Why Effect?
 
 Source: extracted from `llms-full.txt` (`Why Effect?`).

@@ -1,3 +1,8 @@
+---
+title: JSON Schema
+description: JSONSchema.make for generating JSON Schema Draft 07 documents from Effect schemas.
+---
+
 # JSON Schema
 
 Source: extracted from `llms-full.txt` (`JSON Schema`).

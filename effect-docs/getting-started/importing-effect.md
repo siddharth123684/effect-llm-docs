@@ -1,3 +1,8 @@
+---
+title: Importing Effect
+description: Installing the effect package and basic named imports for Effect APIs.
+---
+
 # Importing Effect
 
 Source: extracted from `llms-full.txt` (`Importing Effect`).

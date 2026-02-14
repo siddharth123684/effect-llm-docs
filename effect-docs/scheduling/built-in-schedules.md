@@ -1,3 +1,8 @@
+---
+title: Built-In Schedules
+description: Effect's built-in recurrence strategies including once, recurs, spaced, exponential, and fibonacci.
+---
+
 # Built-In Schedules
 
 Source: extracted from `llms-full.txt` (`Built-In Schedules`).

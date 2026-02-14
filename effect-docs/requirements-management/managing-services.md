@@ -1,3 +1,8 @@
+---
+title: Managing Services
+description: How to create, use, and provide Effect services via Context.Tag and Effect.provideService.
+---
+
 # Managing Services
 
 Source: extracted from `llms-full.txt` (`Managing Services`).

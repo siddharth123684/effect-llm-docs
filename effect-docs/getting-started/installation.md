@@ -1,3 +1,8 @@
+---
+title: Installation
+description: Setup and installation of Effect for Node.js, Deno, Bun, and Vite projects.
+---
+
 # Installation
 
 Source: extracted from `llms-full.txt` (`Installation`).

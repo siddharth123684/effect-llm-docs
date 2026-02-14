@@ -1,3 +1,8 @@
+---
+title: Building Pipelines
+description: Composing transformations and effectful steps with pipe and left-to-right data flow.
+---
+
 # Building Pipelines
 
 Source: extracted from `llms-full.txt` (`Building Pipelines`).

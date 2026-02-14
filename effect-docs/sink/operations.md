@@ -1,3 +1,8 @@
+---
+title: Operations
+description: Sink operations for adapting input, transforming output, and filtering with mapInput and dimap.
+---
+
 # Operations
 
 Source: extracted from `llms-full.txt` (`Operations`).

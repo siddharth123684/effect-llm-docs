@@ -1,3 +1,8 @@
+---
+title: Supervisor
+description: How Supervisor tracks and monitors fiber lifecycle in concurrent Effect programs.
+---
+
 # Supervisor
 
 Source: extracted from `llms-full.txt` (`Supervisor`).

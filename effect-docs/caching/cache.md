@@ -1,3 +1,8 @@
+---
+title: Cache
+description: Avoids duplicate work by deduplicating overlapping lookups and caching results with TTL.
+---
+
 # Cache
 
 Source: extracted from `llms-full.txt` (`Cache`).

@@ -1,3 +1,8 @@
+---
+title: Creating Streams
+description: Effect Stream constructors for pure values, effects, callbacks, iterables, time, and concurrency primitives.
+---
+
 # Creating Streams
 
 Source: extracted from `llms-full.txt` (`Creating Streams`).

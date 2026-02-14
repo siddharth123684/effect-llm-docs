@@ -1,3 +1,8 @@
+---
+title: Order
+description: Schema propertyOrder for controlling decoded and encoded object key order (none vs original).
+---
+
 # Order
 
 Source: extracted from `llms-full.txt` (`Order`).

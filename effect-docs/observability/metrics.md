@@ -1,3 +1,8 @@
+---
+title: Metrics
+description: How to attach counters, gauges, histograms, and other metrics to Effect programs for observability.
+---
+
 # Metrics
 
 Source: extracted from `llms-full.txt` (`Metrics in Effect`).

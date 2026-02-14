@@ -1,3 +1,8 @@
+---
+title: Terminal
+description: How to use the Terminal service for reading and writing standard input/output in Effect programs.
+---
+
 # Terminal
 
 Source: extracted from `llms-full.txt` (`Terminal`).

@@ -1,3 +1,8 @@
+---
+title: Concurrency
+description: Running multiple sinks concurrently with Sink.zip and Sink.race for parallel or first-complete results.
+---
+
 # Concurrency
 
 Source: extracted from `llms-full.txt` (`Sink Concurrency`).

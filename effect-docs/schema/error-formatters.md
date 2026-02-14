@@ -1,3 +1,8 @@
+---
+title: Error Formatters
+description: TreeFormatter and ArrayFormatter for rendering Effect Schema parse errors.
+---
+
 # Error Formatters
 
 Source: extracted from `llms-full.txt` (`Error Formatters`).

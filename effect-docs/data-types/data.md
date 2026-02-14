@@ -1,3 +1,8 @@
+---
+title: Data
+description: Data provides constructors for immutable value-based types with built-in Equal and Hash.
+---
+
 # Data
 
 Source: extracted from `llms-full.txt` (`Data`).

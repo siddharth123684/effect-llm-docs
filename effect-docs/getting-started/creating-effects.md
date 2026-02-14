@@ -1,3 +1,8 @@
+---
+title: Creating Effects
+description: Effect constructors for success, failure, sync/async side effects, and lazy effect creation.
+---
+
 # Creating Effects
 
 Source: extracted from `llms-full.txt` (`Creating Effects`).

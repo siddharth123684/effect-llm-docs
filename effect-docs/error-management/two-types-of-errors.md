@@ -1,3 +1,8 @@
+---
+title: Two Types of Errors
+description: Expected versus unexpected errors and when to use each in Effect.
+---
+
 # Two Types of Errors
 
 Source: extracted from `llms-full.txt` (`Two Types of Errors`).

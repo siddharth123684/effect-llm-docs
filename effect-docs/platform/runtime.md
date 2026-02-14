@@ -1,3 +1,8 @@
+---
+title: Runtime
+description: How runMain executes Effect programs with platform runtime behavior including exit codes, signals, and teardown.
+---
+
 # Runtime
 
 Source: extracted from `llms-full.txt` (`Runtime`).

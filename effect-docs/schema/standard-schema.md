@@ -1,3 +1,8 @@
+---
+title: Standard Schema
+description: Schema.standardSchemaV1 for converting Effect schemas to Standard Schema v1 format.
+---
+
 # Standard Schema
 
 Source: extracted from `llms-full.txt` (`Standard Schema`).

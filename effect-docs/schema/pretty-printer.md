@@ -1,3 +1,8 @@
+---
+title: Pretty Printer
+description: Pretty.make for building pretty-printer functions from schemas for readable string output.
+---
+
 # Pretty Printer
 
 Source: extracted from `llms-full.txt` (`Schema to Pretty Printer`).

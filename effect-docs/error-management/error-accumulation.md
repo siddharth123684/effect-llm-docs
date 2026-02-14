@@ -1,3 +1,8 @@
+---
+title: Error Accumulation
+description: Collecting multiple failures with validate, validateAll, validateFirst, and partition.
+---
+
 # Error Accumulation
 
 Source: extracted from `llms-full.txt` (`Error Accumulation`).

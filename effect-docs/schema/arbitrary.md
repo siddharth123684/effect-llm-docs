@@ -1,3 +1,8 @@
+---
+title: Arbitrary
+description: Arbitrary.make for generating fast-check arbitraries from schemas for property-based testing.
+---
+
 # Arbitrary
 
 Source: extracted from `llms-full.txt` (`Schema to Arbitrary`).

@@ -1,3 +1,8 @@
+---
+title: BigDecimal
+description: BigDecimal provides precision-sensitive arithmetic for finance and statistics.
+---
+
 # BigDecimal
 
 Source: extracted from `llms-full.txt` (`BigDecimal`).

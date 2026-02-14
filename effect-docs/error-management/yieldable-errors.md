@@ -1,3 +1,8 @@
+---
+title: Yieldable Errors
+description: Custom Data.Error and Data.TaggedError for yielding failures inside Effect.gen.
+---
+
 # Yieldable Errors
 
 Source: extracted from `llms-full.txt` (`Yieldable Errors`).

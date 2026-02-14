@@ -1,3 +1,8 @@
+---
+title: Equal
+description: Value-aware equality checks via Equal.equals for objects beyond reference equality.
+---
+
 # Equal
 
 Source: extracted from `llms-full.txt` (`Equal`).

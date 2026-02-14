@@ -1,3 +1,8 @@
+---
+title: Annotations
+description: Schema metadata for validation errors, documentation, JSON Schema, and compiler behavior.
+---
+
 # Annotations
 
 Source: extracted from `llms-full.txt` (`Schema Annotations`).

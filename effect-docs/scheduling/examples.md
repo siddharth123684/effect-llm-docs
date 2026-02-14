@@ -1,3 +1,8 @@
+---
+title: Examples
+description: Practical scheduling patterns for timeouts, retries, and periodic work in Effect.
+---
+
 # Examples
 
 Source: extracted from `llms-full.txt` (`Examples`).

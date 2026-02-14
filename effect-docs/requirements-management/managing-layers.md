@@ -1,3 +1,8 @@
+---
+title: Managing Layers
+description: How to build and compose dependency graphs for Effect services using Layer types and operators.
+---
+
 # Managing Layers
 
 Source: extracted from `llms-full.txt` (`Managing Layers`).

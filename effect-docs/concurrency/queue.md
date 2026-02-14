@@ -1,3 +1,8 @@
+---
+title: Queue
+description: Fiber-friendly in-memory queue for async coordination with back-pressure and typed handoff.
+---
+
 # Queue
 
 Source: extracted from `llms-full.txt` (`Queue`).

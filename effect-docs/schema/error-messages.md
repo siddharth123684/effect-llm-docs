@@ -1,3 +1,8 @@
+---
+title: Error Messages
+description: ParseError structure, default messages, custom message annotations, and refinement failure kinds.
+---
+
 # Error Messages
 
 Source: extracted from `llms-full.txt` (`Error Messages`).

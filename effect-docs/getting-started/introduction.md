@@ -1,3 +1,8 @@
+---
+title: Introduction
+description: Overview of Effect as a TypeScript library for composable, type-safe programs with explicit error handling and resource management.
+---
+
 # Introduction
 
 Source: extracted from `llms-full.txt` (`Introduction`).

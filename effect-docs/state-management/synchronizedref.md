@@ -1,3 +1,8 @@
+---
+title: SynchronizedRef
+description: Mutable reference supporting atomic effectful updates for concurrent shared state.
+---
+
 # SynchronizedRef
 
 Source: extracted from `llms-full.txt` (`SynchronizedRef`).

@@ -1,3 +1,8 @@
+---
+title: Introduction
+description: Stream as a program description that emits values, fails with errors, and requires services.
+---
+
 # Introduction
 
 Source: extracted from `llms-full.txt` (`Introduction to Streams`).

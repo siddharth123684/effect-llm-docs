@@ -1,3 +1,8 @@
+---
+title: Getting Started
+description: Defining schemas, decoding, encoding, validating, and configuring parsing with effect/Schema.
+---
+
 # Getting Started
 
 Source: extracted from `llms-full.txt` (`Getting Started`).

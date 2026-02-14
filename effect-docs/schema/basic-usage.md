@@ -1,3 +1,8 @@
+---
+title: Basic Usage
+description: Schema constructors, decodeUnknownSync, encodeSync, validateSync, and primitive types.
+---
+
 # Basic Usage
 
 Source: extracted from `llms-full.txt` (`Basic Usage`).

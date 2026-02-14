@@ -1,3 +1,8 @@
+---
+title: Expected Errors
+description: Domain-level failures modeled in the typed Error channel with Effect.fail.
+---
+
 # Expected Errors
 
 Source: extracted from `llms-full.txt` (`Expected Errors`).

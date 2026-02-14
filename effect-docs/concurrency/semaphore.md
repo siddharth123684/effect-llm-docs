@@ -1,3 +1,8 @@
+---
+title: Semaphore
+description: Synchronization primitive for controlling concurrent access via permit-based resource management.
+---
+
 # Semaphore
 
 Source: extracted from `llms-full.txt` (`Semaphore`).

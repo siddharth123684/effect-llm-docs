@@ -1,3 +1,8 @@
+---
+title: Getting Started
+description: Micro as lightweight Effect alternative for bundle-size-sensitive code with Promise-oriented APIs.
+---
+
 # Getting Started
 
 Source: extracted from `llms-full.txt` (`Getting Started with Micro`).

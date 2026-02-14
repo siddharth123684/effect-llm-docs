@@ -1,3 +1,8 @@
+---
+title: Introduction
+description: Overview of Effect Platform's cross-platform services for Node.js, Deno, Bun, and browsers.
+---
+
 # Introduction
 
 Source: extracted from `llms-full.txt` (`Introduction to Effect Platform`).

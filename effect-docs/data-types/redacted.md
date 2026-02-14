@@ -1,3 +1,8 @@
+---
+title: Redacted
+description: Redacted wraps sensitive values to hide them from logs and error output.
+---
+
 # Redacted
 
 Source: extracted from `llms-full.txt` (`Redacted`).

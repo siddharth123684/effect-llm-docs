@@ -1,3 +1,8 @@
+---
+title: Excessive Nesting
+description: Reducing deeply nested pipe calls with Effect.gen and flatMap for clearer control flow.
+---
+
 # Excessive Nesting
 
 Source: extracted from `llms-full.txt` (`Excessive Nesting`).

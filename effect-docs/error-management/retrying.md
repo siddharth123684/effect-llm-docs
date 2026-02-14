@@ -1,3 +1,8 @@
+---
+title: Retrying
+description: Retry policies with Effect.retry and Effect.retryOrElse for transient failures.
+---
+
 # Retrying
 
 Source: extracted from `llms-full.txt` (`Retrying`).

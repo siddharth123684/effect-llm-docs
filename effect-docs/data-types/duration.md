@@ -1,3 +1,8 @@
+---
+title: Duration
+description: Duration represents non-negative time spans for timeouts, delays, retries, and scheduling.
+---
+
 # Duration
 
 Source: extracted from `llms-full.txt` (`Duration`).

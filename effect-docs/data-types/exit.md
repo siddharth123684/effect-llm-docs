@@ -1,3 +1,8 @@
+---
+title: Exit
+description: Schema.Exit for JSON-serializable conversion of Exit values with failure, success, and defect schemas.
+---
+
 # Exit
 
 Source: extracted from `llms-full.txt` (`Exit`).

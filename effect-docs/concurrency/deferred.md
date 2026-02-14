@@ -1,3 +1,8 @@
+---
+title: Deferred
+description: One-time synchronization primitive for fiber coordination, similar to Promise with explicit types.
+---
+
 # Deferred
 
 Source: extracted from `llms-full.txt` (`Deferred`).

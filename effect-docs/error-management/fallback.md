@@ -1,3 +1,8 @@
+---
+title: Fallback
+description: Effect.orElse, orElseFail, orElseSucceed, and firstSuccessOf for recovery from failures.
+---
+
 # Fallback
 
 Source: extracted from `llms-full.txt` (`Fallback`).

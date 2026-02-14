@@ -1,3 +1,8 @@
+---
+title: Latch
+description: Synchronization gate for fibers to wait until a setup step completes before proceeding.
+---
+
 # Latch
 
 Source: extracted from `llms-full.txt` (`Latch`).

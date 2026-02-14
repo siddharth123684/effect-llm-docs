@@ -1,3 +1,8 @@
+---
+title: Transformations
+description: Schema.transform, transformOrFail, compose, and filterEffect for encoded-decoded conversions.
+---
+
 # Transformations
 
 Source: extracted from `llms-full.txt` (`Transformations`).

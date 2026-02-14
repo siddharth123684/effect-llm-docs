@@ -1,3 +1,8 @@
+---
+title: Schedule Combinators
+description: How to combine and transform schedules with union, intersect, jitter, and filter operators.
+---
+
 # Schedule Combinators
 
 Source: extracted from `llms-full.txt` (`Schedule Combinators`).

@@ -1,3 +1,8 @@
+---
+title: Default Constructors
+description: schema.make for creating decoded-type values from Struct, Record, filters, and branded schemas.
+---
+
 # Default Constructors
 
 Source: extracted from `llms-full.txt` (`Default Constructors`).

@@ -1,3 +1,8 @@
+---
+title: The Effect Type
+description: Effect as a lazy description of workflows with success, error, and requirement types.
+---
+
 # The Effect Type
 
 Source: extracted from `llms-full.txt` (`The Effect Type`).

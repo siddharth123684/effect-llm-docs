@@ -1,3 +1,8 @@
+---
+title: Running Effects
+description: Executing effects with runSync, runPromise, runSyncExit, and runFork at program boundaries.
+---
+
 # Running Effects
 
 Source: extracted from `llms-full.txt` (`Running Effects`).

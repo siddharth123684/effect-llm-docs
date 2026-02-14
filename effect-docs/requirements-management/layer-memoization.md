@@ -1,3 +1,8 @@
+---
+title: Layer Memoization
+description: How Effect reuses layer instances across a dependency graph based on reference equality.
+---
+
 # Layer Memoization
 
 Source: extracted from `llms-full.txt` (`Layer Memoization`).

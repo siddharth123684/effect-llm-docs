@@ -1,3 +1,8 @@
+---
+title: Getting Started with Effect AI
+description: Installing @effect/ai, configuring providers, and using LanguageModel.generateText with provider-agnostic APIs.
+---
+
 # Getting Started with Effect AI
 
 The `@effect/ai` ecosystem provides a provider-agnostic interface for interacting with Large Language Models (LLMs). It separates the *description* of an AI interaction from its *execution*.

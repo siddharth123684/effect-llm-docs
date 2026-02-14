@@ -1,3 +1,8 @@
+---
+title: Chunk
+description: Chunk is an ordered, immutable collection optimized for concatenation operations.
+---
+
 # Chunk
 
 Source: extracted from `llms-full.txt` (`Chunk`).

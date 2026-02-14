@@ -1,3 +1,8 @@
+---
+title: Introduction
+description: Effect's finalization APIs and acquire-use-release pattern for reliable resource cleanup.
+---
+
 # Introduction
 
 Source: extracted from `llms-full.txt` (`Introduction`).

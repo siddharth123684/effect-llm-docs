@@ -1,3 +1,8 @@
+---
+title: Filters
+description: Schema.filter for validation rules that refine accepted values without changing inferred type.
+---
+
 # Filters
 
 Source: extracted from `llms-full.txt` (`Filters`).

@@ -1,3 +1,8 @@
+---
+title: Basic Concurrency
+description: Effect's concurrency model with fibers, concurrency options, racing APIs, and interruption.
+---
+
 # Basic Concurrency
 
 Source: extracted from `llms-full.txt` (`Basic Concurrency`).

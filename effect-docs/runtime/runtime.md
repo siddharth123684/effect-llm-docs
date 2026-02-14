@@ -1,3 +1,8 @@
+---
+title: Runtime
+description: How Effect's Runtime executes effects and manages context, FiberRefs, and execution behavior.
+---
+
 # Runtime
 
 Source: extracted from `llms-full.txt` (`Runtime`).

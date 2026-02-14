@@ -1,3 +1,8 @@
+---
+title: Devtools
+description: Effect Language Service (LSP) and VS Code extension for diagnostics, debugging, tracing, and metrics.
+---
+
 # Devtools
 
 Source: extracted from `llms-full.txt` (`Devtools`).

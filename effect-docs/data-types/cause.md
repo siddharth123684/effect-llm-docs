@@ -1,3 +1,8 @@
+---
+title: Cause
+description: Cause captures full failure information including defects, interruptions, and composed failures.
+---
+
 # Cause
 
 Source: extracted from `llms-full.txt` (`Cause`).

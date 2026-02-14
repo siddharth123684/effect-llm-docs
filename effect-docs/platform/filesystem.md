@@ -1,3 +1,8 @@
+---
+title: FileSystem
+description: Platform-abstracted file system service for reading, writing, and managing files and directories.
+---
+
 # FileSystem
 
 Source: extracted from `llms-full.txt` (`FileSystem`).

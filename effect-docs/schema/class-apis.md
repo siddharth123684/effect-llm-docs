@@ -1,3 +1,8 @@
+---
+title: Class APIs
+description: Schema.Class for defining schema and class type together with methods and Data.Class support.
+---
+
 # Class APIs
 
 Source: extracted from `llms-full.txt` (`Class APIs`).

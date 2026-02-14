@@ -1,3 +1,8 @@
+---
+title: Batching
+description: Groups compatible requests and resolves them together, reducing repeated work and API calls.
+---
+
 # Batching
 
 Source: extracted from `llms-full.txt` (`Batching`).

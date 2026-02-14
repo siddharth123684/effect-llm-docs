@@ -1,3 +1,8 @@
+---
+title: Logging
+description: Effect's composable logging system with levels, annotations, spans, and custom loggers.
+---
+
 # Logging
 
 Source: extracted from `llms-full.txt` (`Logging`).

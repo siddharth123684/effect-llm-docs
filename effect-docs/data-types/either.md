@@ -1,3 +1,8 @@
+---
+title: Either
+description: Either represents Left or Right for mutually exclusive branching and lightweight discriminated unions.
+---
+
 # Either
 
 Source: extracted from `llms-full.txt` (`Either`).

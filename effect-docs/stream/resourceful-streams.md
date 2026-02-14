@@ -1,3 +1,8 @@
+---
+title: Resourceful Streams
+description: Effect Stream constructors for scoped resources with acquire-release and finalizer patterns.
+---
+
 # Resourceful Streams
 
 Source: extracted from `llms-full.txt` (`Resourceful Streams`).

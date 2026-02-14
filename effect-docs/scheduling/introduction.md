@@ -1,3 +1,8 @@
+---
+title: Introduction
+description: Overview of Effect's Schedule type for defining recurring execution patterns.
+---
+
 # Introduction
 
 Source: extracted from `llms-full.txt` (`Introduction`).

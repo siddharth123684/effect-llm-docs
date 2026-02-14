@@ -1,3 +1,8 @@
+---
+title: HashSet
+description: HashSet is an immutable, unordered collection of unique values with O(1) membership checks.
+---
+
 # HashSet
 
 Source: extracted from `llms-full.txt` (`HashSet`).

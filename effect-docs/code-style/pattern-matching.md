@@ -1,3 +1,8 @@
+---
+title: Pattern Matching
+description: Effect Match module for type-safe branching with exhaustiveness and tagged unions.
+---
+
 # Pattern Matching
 
 Source: extracted from `llms-full.txt` (`Pattern Matching`).

@@ -1,3 +1,8 @@
+---
+title: Error Handling
+description: Stream error recovery, fallback, retry, timeout, and typed error handling.
+---
+
 # Error Handling
 
 Source: extracted from `llms-full.txt` (`Error Handling in Streams`).

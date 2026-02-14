@@ -1,3 +1,8 @@
+---
+title: Hash
+description: Hash interface for efficient equality checks in hash-based collections with Equal.
+---
+
 # Hash
 
 Source: extracted from `llms-full.txt` (`Hash`).

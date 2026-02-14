@@ -1,3 +1,8 @@
+---
+title: Default Services
+description: Effect's built-in Clock, Console, Random, ConfigProvider, and Tracer services and how to override them.
+---
+
 # Default Services
 
 Source: extracted from `llms-full.txt` (`Default Services`).

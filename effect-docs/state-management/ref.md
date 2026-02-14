@@ -1,3 +1,8 @@
+---
+title: Ref
+description: Effect's mutable reference for shared state across fibers with explicit effectful operations.
+---
+
 # Ref
 
 Source: extracted from `llms-full.txt` (`Ref`).

@@ -1,3 +1,8 @@
+---
+title: PlatformLogger
+description: Creating file-backed loggers with toFile for persistent logging and debugging.
+---
+
 # PlatformLogger
 
 Source: extracted from `llms-full.txt` (`PlatformLogger`).
