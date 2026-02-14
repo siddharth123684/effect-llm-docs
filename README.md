@@ -1,5 +1,7 @@
 # Local Library Docs for LLM Agents
 
+![Parallel Effect doc-writer subagents running in Cursor](.github/images/image_1.png)
+
 Generate 118 library-specific docs in parallel using AI subagents. Achieves 100% pass rate on coding tasks vs 53-79% with retrieval tools.
 
 A step-by-step guide to building retrieval-optimised local documentation using AI subagents.
