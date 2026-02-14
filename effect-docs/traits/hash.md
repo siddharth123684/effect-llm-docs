@@ -1,6 +1,6 @@
 ---
 title: Hash
-description: Hash interface for efficient equality checks in hash-based collections with Equal.
+description: Learn the Hash interface and hash function for efficient equality checks in hash-based collections, working with Equal to short-circuit non-equal comparisons.
 ---
 
 # Hash

@@ -1,6 +1,6 @@
 ---
 title: Fallback
-description: Effect.orElse, orElseFail, orElseSucceed, and firstSuccessOf for recovery from failures.
+description: Learn Effect.orElse, Effect.orElseFail, Effect.orElseSucceed, and Effect.firstSuccessOf to recover from failures with fallback logic when building resilient Effect applications and services.
 ---
 
 # Fallback

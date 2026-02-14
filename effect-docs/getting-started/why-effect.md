@@ -1,6 +1,6 @@
 ---
 title: Why Effect?
-description: Rationale for Effect's explicit modeling of errors, dependencies, and success values in types.
+description: Learn why Effect models errors, dependencies, and success values explicitly in types for maintainable, reliable, and predictable TypeScript applications and systems.
 ---
 
 # Why Effect?

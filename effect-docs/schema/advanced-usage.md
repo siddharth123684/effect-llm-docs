@@ -1,6 +1,6 @@
 ---
 title: Advanced Usage
-description: Custom data types, brands, optional/required properties, extending schemas, and recursion.
+description: Learn advanced schema patterns including Schema.declare for custom types, brands for nominal typing, optional/required properties, extending schemas, and recursive data modeling.
 ---
 
 # Advanced Usage

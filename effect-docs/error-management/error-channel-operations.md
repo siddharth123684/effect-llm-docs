@@ -1,6 +1,6 @@
 ---
 title: Error Channel Operations
-description: Transforming, filtering, and inspecting failures with mapError, filterOrFail, and tapError.
+description: Learn Effect.mapError, Effect.filterOrFail, Effect.tapError, and Effect.catchAll to transform, filter, and inspect failures in the error channel when building Effect programs.
 ---
 
 # Error Channel Operations

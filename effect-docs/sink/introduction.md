@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Sink as a consumer of stream elements that produces a result and may leave leftovers.
+description: Learn the Sink type as a consumer of Stream elements that produces a result, may fail, leave leftovers, and require services, used with Stream.run.
 ---
 
 # Introduction

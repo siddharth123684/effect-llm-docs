@@ -1,6 +1,6 @@
 ---
 title: Error Handling
-description: Stream error recovery, fallback, retry, timeout, and typed error handling.
+description: Learn Stream error handling with orElse, catchAll, catchSomeCause, onError, retry, refineOrDie, and timeout operators for recovery, fallback, cleanup, retries, and timeout strategies.
 ---
 
 # Error Handling

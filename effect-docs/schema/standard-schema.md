@@ -1,6 +1,6 @@
 ---
 title: Standard Schema
-description: Schema.standardSchemaV1 for converting Effect schemas to Standard Schema v1 format.
+description: Learn how to use Schema.standardSchemaV1 to convert Effect schemas to Standard Schema v1 format and validate input with the ~standard interface.
 ---
 
 # Standard Schema

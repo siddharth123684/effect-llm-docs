@@ -1,6 +1,6 @@
 ---
 title: TestClock
-description: Deterministic time control for tests using adjust and setTime instead of real time.
+description: Learn TestClock.adjust and TestClock.setTime for deterministic time control in tests, enabling fast testing of Effect.sleep, timeouts, and scheduled effects without real delays.
 ---
 
 # TestClock

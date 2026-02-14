@@ -1,6 +1,6 @@
 ---
 title: BigDecimal
-description: BigDecimal provides precision-sensitive arithmetic for finance and statistics.
+description: Learn BigDecimal for precision-sensitive arithmetic using make, fromString, sum, multiply, divide, and equals to avoid floating-point errors in finance and statistics.
 ---
 
 # BigDecimal

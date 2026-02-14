@@ -1,6 +1,6 @@
 ---
 title: Supervisor
-description: How Supervisor tracks and monitors fiber lifecycle in concurrent Effect programs.
+description: Learn Supervisor.track, Effect.supervised, and supervisor.value to monitor fiber lifecycle and track concurrent execution when building observable Effect applications and services.
 ---
 
 # Supervisor

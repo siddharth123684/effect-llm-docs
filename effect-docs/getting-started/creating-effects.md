@@ -1,6 +1,6 @@
 ---
 title: Creating Effects
-description: Effect constructors for success, failure, sync/async side effects, and lazy effect creation.
+description: Learn Effect constructors including Effect.succeed, Effect.fail, Effect.sync, Effect.promise, and Effect.defer to model sync, async, and deferred computations when building Effect programs.
 ---
 
 # Creating Effects

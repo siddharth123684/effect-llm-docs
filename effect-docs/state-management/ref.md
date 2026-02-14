@@ -1,6 +1,6 @@
 ---
 title: Ref
-description: Effect's mutable reference for shared state across fibers with explicit effectful operations.
+description: Learn Ref.make, Ref.update, Ref.get, and Ref.modify for shared mutable state across fibers with atomic updates when building concurrent Effect programs.
 ---
 
 # Ref

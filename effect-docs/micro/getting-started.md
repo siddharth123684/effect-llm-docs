@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: Micro as lightweight Effect alternative for bundle-size-sensitive code with Promise-oriented APIs.
+description: Learn Micro.tryPromise, Micro.gen, Micro.service, Context.Tag, and Micro.provideService to build lightweight Effect-style programs with Promise-oriented APIs for small bundle sizes and performance.
 ---
 
 # Getting Started

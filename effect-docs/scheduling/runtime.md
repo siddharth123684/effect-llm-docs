@@ -1,6 +1,6 @@
 ---
 title: Runtime
-description: How schedules are evaluated at runtime for repeat and retry behavior in Effect.
+description: Learn how Schedule is evaluated at runtime with Effect.repeat and Effect.schedule for repeat and retry behavior when building Effect programs.
 ---
 
 # Runtime

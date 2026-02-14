@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Stream as a program description that emits values, fails with errors, and requires services.
+description: Learn the Stream type for emitting zero or more values with typed errors, service requirements, and support for empty, finite, and infinite flows.
 ---
 
 # Introduction

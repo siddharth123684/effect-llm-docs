@@ -1,6 +1,6 @@
 ---
 title: Transformations
-description: Schema.transform, transformOrFail, compose, and filterEffect for encoded-decoded conversions.
+description: Learn Schema.transform, Schema.transformOrFail, Schema.compose, and Schema.filterEffect to reshape data between encoded and decoded forms when using Effect Schema for validation.
 ---
 
 # Transformations

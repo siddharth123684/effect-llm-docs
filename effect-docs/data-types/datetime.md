@@ -1,6 +1,6 @@
 ---
 title: DateTime
-description: DateTime is Effect's immutable date-time model with Utc and Zoned variants.
+description: Learn DateTime.Utc, DateTime.Zoned, DateTime.make, DateTime.formatIso, and TimeZone for immutable date-time handling with optional zone context when building Effect programs and services.
 ---
 
 # DateTime

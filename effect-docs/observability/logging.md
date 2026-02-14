@@ -1,6 +1,6 @@
 ---
 title: Logging
-description: Effect's composable logging system with levels, annotations, spans, and custom loggers.
+description: Learn Effect.log, log levels, annotations, spans, and pluggable loggers for composable, contextual logging when building observable Effect applications and services.
 ---
 
 # Logging

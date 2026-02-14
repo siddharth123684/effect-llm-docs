@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Overview of Effect's Schedule type for defining recurring execution patterns.
+description: Learn Effect's Schedule type for defining recurring execution patterns for retry and repeat workflows with configurable policies in Effect programs.
 ---
 
 # Introduction

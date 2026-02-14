@@ -1,6 +1,6 @@
 ---
 title: Tracing
-description: How to instrument Effect programs with spans and traces using OpenTelemetry integration.
+description: Learn to instrument Effect programs with spans and traces using OpenTelemetry integration for distributed tracing and production observability and debugging.
 ---
 
 # Tracing

@@ -1,6 +1,6 @@
 ---
 title: HashSet
-description: HashSet is an immutable, unordered collection of unique values with O(1) membership checks.
+description: Learn HashSet.make, HashSet.add, HashSet.union, HashSet.has, and HashSet.mutate for immutable unique collections with O(1) membership checks when building Effect programs and pipelines.
 ---
 
 # HashSet

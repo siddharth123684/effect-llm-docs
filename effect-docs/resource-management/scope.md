@@ -1,6 +1,6 @@
 ---
 title: Scope
-description: How Scope manages resource lifetimes and finalizers in Effect, including acquireRelease and manual control.
+description: Learn how Scope manages resource lifetimes, Effect.addFinalizer, Effect.acquireRelease, and LIFO finalizer execution for safe resource cleanup when building Effect programs.
 ---
 
 # Scope

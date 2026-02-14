@@ -1,6 +1,6 @@
 ---
 title: Equal
-description: Value-aware equality checks via Equal.equals for objects beyond reference equality.
+description: Learn Equal.equals and the Equal interface for value-aware equality checks beyond reference equality, paired with Hash for collections in Effect.
 ---
 
 # Equal

@@ -1,6 +1,6 @@
 ---
 title: Redacted
-description: Redacted wraps sensitive values to hide them from logs and error output.
+description: Learn Redacted.make, Redacted.value, and Redacted.unsafeWipe to wrap sensitive values and hide them from logs and error output in Effect programs.
 ---
 
 # Redacted

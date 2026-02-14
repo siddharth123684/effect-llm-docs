@@ -1,6 +1,6 @@
 ---
 title: Runtime
-description: How Effect's Runtime executes effects and manages context, FiberRefs, and execution behavior.
+description: Learn how Effect's Runtime executes effects and manages Context, FiberRefs, and RuntimeFlags for configurable execution behavior when running Effect programs.
 ---
 
 # Runtime

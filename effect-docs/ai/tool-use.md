@@ -1,6 +1,6 @@
 ---
 title: Tool Use in Effect AI
-description: Type-safe Tool and Toolkit abstractions for LLM tool calling with Schema validation and Effect-native implementations.
+description: Learn how to define tools with Tool.make and Schema, create a Toolkit, implement handlers via toLayer, and pass tools to LanguageModel.generateText for type-safe LLM tool calling in Effect.
 ---
 
 # Tool Use in Effect AI

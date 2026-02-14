@@ -1,6 +1,6 @@
 ---
 title: Cache
-description: Avoids duplicate work by deduplicating overlapping lookups and caching results with TTL.
+description: Learn Cache to deduplicate overlapping lookups, cache results with TTL, and expose cache metrics for observability and performance in Effect programs.
 ---
 
 # Cache

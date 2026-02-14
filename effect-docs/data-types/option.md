@@ -1,6 +1,6 @@
 ---
 title: Option
-description: Option models optional values with Some and None cases for partial results and optional fields.
+description: Learn Option.some, Option.none, Option.map, Option.flatMap, Option.match, and Option.gen for modeling optional values and partial results when building Effect programs and services.
 ---
 
 # Option

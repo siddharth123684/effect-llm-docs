@@ -1,6 +1,6 @@
 ---
 title: Yieldable Errors
-description: Custom Data.Error and Data.TaggedError for yielding failures inside Effect.gen.
+description: Learn Data.Error and Data.TaggedError to yield domain errors directly inside Effect.gen without explicit Effect.fail calls for cleaner, more readable code.
 ---
 
 # Yieldable Errors

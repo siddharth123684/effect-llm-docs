@@ -1,6 +1,6 @@
 ---
 title: Getting Started with Effect AI
-description: Installing @effect/ai, configuring providers, and using LanguageModel.generateText with provider-agnostic APIs.
+description: Learn to install @effect/ai, configure providers, and use LanguageModel.generateText with provider-agnostic APIs for building reliable LLM workflows in Effect applications.
 ---
 
 # Getting Started with Effect AI

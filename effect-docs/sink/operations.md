@@ -1,6 +1,6 @@
 ---
 title: Operations
-description: Sink operations for adapting input, transforming output, and filtering with mapInput and dimap.
+description: Learn Sink.mapInput, Sink.dimap, and Sink.filterInput to adapt input types, transform both input and output, and filter elements before sink processing.
 ---
 
 # Operations

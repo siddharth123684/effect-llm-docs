@@ -1,6 +1,6 @@
 ---
 title: Order
-description: Schema propertyOrder for controlling decoded and encoded object key order (none vs original).
+description: Learn how the propertyOrder parse option controls decoded and encoded object key order, with none and original modes for synchronous and asynchronous decoding.
 ---
 
 # Order

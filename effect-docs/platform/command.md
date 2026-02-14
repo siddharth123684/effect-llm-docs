@@ -1,6 +1,6 @@
 ---
 title: Command
-description: How to run external processes as Effect values with composable, testable execution.
+description: Learn Command.make, Command.string, Command.lines, Command.stream, Command.env, Command.feed, and CommandExecutor for running external processes as Effect values when building Effect programs.
 ---
 
 # Command

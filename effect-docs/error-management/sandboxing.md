@@ -1,6 +1,6 @@
 ---
 title: Sandboxing
-description: Effect.sandbox for exposing full Cause structure including defects and interruptions.
+description: Learn Effect.sandbox to expose full Cause structure including Fail, Die, and Interrupt for comprehensive failure inspection and error handling in Effect.
 ---
 
 # Sandboxing

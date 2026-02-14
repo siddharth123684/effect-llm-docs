@@ -1,6 +1,6 @@
 ---
 title: Pretty Printer
-description: Pretty.make for building pretty-printer functions from schemas for readable string output.
+description: Learn how to use Pretty.make to build pretty-printer functions from schemas for readable string output, including custom formatting via the pretty annotation.
 ---
 
 # Pretty Printer

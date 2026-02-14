@@ -1,6 +1,6 @@
 ---
 title: Two Types of Errors
-description: Expected versus unexpected errors and when to use each in Effect.
+description: Learn the distinction between expected errors (typed failures) and unexpected errors (defects) and when to use each in Effect programs.
 ---
 
 # Two Types of Errors

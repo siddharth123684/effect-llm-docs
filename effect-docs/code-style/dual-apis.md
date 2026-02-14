@@ -1,6 +1,6 @@
 ---
 title: Dual APIs
-description: Data-last and data-first calling styles in Effect for pipeline and direct usage.
+description: Learn data-last and data-first calling styles in Effect.map and other dual APIs for pipeline composition with pipe versus direct one-off transformations.
 ---
 
 # Dual APIs

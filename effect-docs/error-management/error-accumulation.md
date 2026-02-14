@@ -1,6 +1,6 @@
 ---
 title: Error Accumulation
-description: Collecting multiple failures with validate, validateAll, validateFirst, and partition.
+description: Learn Effect.validate, Effect.validateAll, Effect.validateFirst, and Effect.partition to collect multiple failures instead of fail-fast validation when building robust Effect applications and services.
 ---
 
 # Error Accumulation

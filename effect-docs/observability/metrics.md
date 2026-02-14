@@ -1,6 +1,6 @@
 ---
 title: Metrics
-description: How to attach counters, gauges, histograms, and other metrics to Effect programs for observability.
+description: Learn to attach Counter, Gauge, Histogram, Summary, and Frequency metrics to Effect programs for runtime observability and production monitoring and alerting.
 ---
 
 # Metrics

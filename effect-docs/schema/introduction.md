@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: effect/Schema for describing data shapes and transforming values between runtime formats.
+description: Learn the effect/Schema model for describing data shapes, decoding, encoding, and generating Standard Schema, JSON Schema, Arbitrary, Equivalence, and Pretty from schemas.
 ---
 
 # Introduction

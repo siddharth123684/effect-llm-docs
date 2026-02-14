@@ -1,6 +1,6 @@
 ---
 title: Repetition
-description: How to repeat successful effects multiple times using Effect.repeat and schedules.
+description: Learn Effect.repeat and Effect.schedule to run successful effects multiple times according to Schedule policies for recurring workflows when using Effect.
 ---
 
 # Repetition

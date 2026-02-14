@@ -1,6 +1,6 @@
 ---
 title: Concurrency
-description: Running multiple sinks concurrently with Sink.zip and Sink.race for parallel or first-complete results.
+description: Learn Sink.zip with concurrent option and Sink.race to run multiple sinks against the same stream for parallel combined results or first-complete outcomes.
 ---
 
 # Concurrency

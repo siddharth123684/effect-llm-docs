@@ -1,6 +1,6 @@
 ---
 title: Timing Out
-description: Timeout operators to bound effect execution time and handle stalled operations.
+description: Learn Effect.timeout, Effect.timeoutOption, Effect.timeoutFail, and Effect.timeoutTo to bound execution time and handle stalled operations when running Effect programs safely and reliably.
 ---
 
 # Timing Out

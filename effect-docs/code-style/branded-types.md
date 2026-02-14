@@ -1,6 +1,6 @@
 ---
 title: Branded Types
-description: Effect Brand module for distinct compile-time types from primitive representations.
+description: Learn Brand.nominal and Brand.refined to create distinct compile-time types from primitives, prevent accidental mix-ups, and validate at construction with Brand.all.
 ---
 
 # Branded Types

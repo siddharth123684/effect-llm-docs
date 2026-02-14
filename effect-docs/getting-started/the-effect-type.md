@@ -1,6 +1,6 @@
 ---
 title: The Effect Type
-description: Effect as a lazy description of workflows with success, error, and requirement types.
+description: Learn how the Effect type models workflows lazily with explicit Success, Error, and Requirements type parameters for type-safe, composable programs.
 ---
 
 # The Effect Type

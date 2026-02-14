@@ -1,6 +1,6 @@
 ---
 title: Leftovers
-description: Handling unconsumed Sink input with collectLeftover and ignoreLeftover.
+description: Learn how to handle unconsumed Sink input using Sink.collectLeftover and Sink.ignoreLeftover to retrieve or discard leftover elements when sinks consume partially.
 ---
 
 # Leftovers

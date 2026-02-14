@@ -1,6 +1,6 @@
 ---
 title: Configuration
-description: How to configure schedules and combinators for retry and repeat behavior in Effect.
+description: Learn to configure Schedule types and combinators for Effect.retry and Effect.repeat behavior with immutable, composable policies when building Effect programs.
 ---
 
 # Configuration

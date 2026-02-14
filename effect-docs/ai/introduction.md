@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Effect AI provides provider-agnostic LLM abstractions with testability, concurrency, and observability.
+description: Learn how Effect AI packages provide provider-agnostic LanguageModel, EmbeddingsModel, and streaming abstractions with testability, concurrency, and observability for LLM workflows.
 ---
 
 # Introduction

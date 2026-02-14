@@ -1,6 +1,6 @@
 ---
 title: SubscriptionRef
-description: SynchronizedRef with a stream of changes for reactive shared-state workflows.
+description: Learn SubscriptionRef and its changes stream for reactive shared-state workflows with observable updates and subscription-based reactivity when building Effect programs.
 ---
 
 # SubscriptionRef

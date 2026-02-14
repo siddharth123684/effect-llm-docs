@@ -1,6 +1,6 @@
 ---
 title: Guidelines
-description: Effect style guidelines for runMain entrypoints and avoiding tacit combinator usage.
+description: Learn to use NodeRuntime.runMain, BunRuntime.runMain, or BrowserRuntime.runMain for graceful shutdown and avoid tacit combinator usage for predictable types and stack traces.
 ---
 
 # Guidelines

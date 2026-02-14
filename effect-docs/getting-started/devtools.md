@@ -1,6 +1,6 @@
 ---
 title: Devtools
-description: Effect Language Service (LSP) and VS Code extension for diagnostics, debugging, tracing, and metrics.
+description: Learn to set up the Effect Language Service (LSP) and VS Code extension for diagnostics, debugging, tracing, and metrics visualization.
 ---
 
 # Devtools

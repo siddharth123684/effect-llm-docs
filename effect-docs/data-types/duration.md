@@ -1,6 +1,6 @@
 ---
 title: Duration
-description: Duration represents non-negative time spans for timeouts, delays, retries, and scheduling.
+description: Learn Duration.millis, Duration.seconds, Duration.decode, Duration.sum, and Duration.format for non-negative time spans in timeouts, delays, retries, and scheduling when using Effect.
 ---
 
 # Duration

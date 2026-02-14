@@ -1,6 +1,6 @@
 ---
 title: Caching Effects
-description: Helpers for memoizing effectful computations: cachedFunction, once, cached, and cachedWithTTL.
+description: Learn Effect.cachedFunction, Effect.once, Effect.cached, and Effect.cachedWithTTL to memoize effectful computations and avoid redundant work when building efficient Effect applications and services.
 ---
 
 # Caching Effects

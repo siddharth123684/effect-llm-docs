@@ -1,6 +1,6 @@
 ---
 title: Arbitrary
-description: Arbitrary.make for generating fast-check arbitraries from schemas for property-based testing.
+description: Learn how to use Arbitrary.make to generate fast-check arbitraries from schemas for property-based testing, with schema filters mapped to matching fast-check primitives.
 ---
 
 # Arbitrary

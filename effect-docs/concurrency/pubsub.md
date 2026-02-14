@@ -1,6 +1,6 @@
 ---
 title: PubSub
-description: Asynchronous broadcast hub for fan-out broadcasting to multiple subscribers.
+description: Learn PubSub.publish and PubSub.subscribe for fan-out broadcasting to multiple subscribers with back-pressure and fiber-safe messaging when building concurrent Effect programs.
 ---
 
 # PubSub

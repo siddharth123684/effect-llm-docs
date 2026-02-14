@@ -1,6 +1,6 @@
 ---
 title: Excessive Nesting
-description: Reducing deeply nested pipe calls with Effect.gen and flatMap for clearer control flow.
+description: Learn to reduce deeply nested pipe calls using Effect.gen, Effect.Do, Effect.bind, and Effect.let for clearer sequential control flow and readability.
 ---
 
 # Excessive Nesting

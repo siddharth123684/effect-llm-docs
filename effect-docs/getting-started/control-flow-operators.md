@@ -1,6 +1,6 @@
 ---
 title: Control Flow Operators
-description: Effect helpers for branching, conditional execution, combining effects, and typed looping.
+description: Learn Effect.if, Effect.when, Effect.unless, Effect.all, and Effect.loop for branching, conditional execution, and typed iteration when building expressive Effect applications and workflows.
 ---
 
 # Control Flow Operators

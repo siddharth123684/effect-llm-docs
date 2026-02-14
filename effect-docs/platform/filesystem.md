@@ -1,6 +1,6 @@
 ---
 title: FileSystem
-description: Platform-abstracted file system service for reading, writing, and managing files and directories.
+description: Learn FileSystem service with readFileString, writeFile, makeDirectory, open, stream, and layerNoop for platform-abstracted file and directory operations when using Effect.
 ---
 
 # FileSystem

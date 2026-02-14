@@ -1,6 +1,6 @@
 ---
 title: Path
-description: Platform-abstracted file path operations including join, resolve, normalize, and parse.
+description: Learn Path.Path service with join, resolve, normalize, parse, basename, dirname, and relative for cross-platform path manipulation when building Effect programs.
 ---
 
 # Path

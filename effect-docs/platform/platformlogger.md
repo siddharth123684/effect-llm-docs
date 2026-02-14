@@ -1,6 +1,6 @@
 ---
 title: PlatformLogger
-description: Creating file-backed loggers with toFile for persistent logging and debugging.
+description: Learn PlatformLogger.toFile with FileSystem, Logger.logfmtLogger, batchWindow, and Layer.provide for persistent file-backed logging when building production Effect applications, services, and pipelines.
 ---
 
 # PlatformLogger

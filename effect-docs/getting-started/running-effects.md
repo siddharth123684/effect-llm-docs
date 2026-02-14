@@ -1,6 +1,6 @@
 ---
 title: Running Effects
-description: Executing effects with runSync, runPromise, runSyncExit, and runFork at program boundaries.
+description: Learn to execute effects with Effect.runSync, Effect.runPromise, Effect.runSyncExit, and Effect.runFork at program boundaries for sync, async, and forked execution modes.
 ---
 
 # Running Effects

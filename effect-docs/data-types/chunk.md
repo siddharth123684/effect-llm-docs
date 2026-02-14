@@ -1,6 +1,6 @@
 ---
 title: Chunk
-description: Chunk is an ordered, immutable collection optimized for concatenation operations.
+description: Learn Chunk.make, Chunk.appendAll, Chunk.drop, and Chunk.toReadonlyArray for ordered immutable collections optimized for concatenation and composition when building Effect programs and pipelines.
 ---
 
 # Chunk

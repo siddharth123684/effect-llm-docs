@@ -1,6 +1,6 @@
 ---
 title: Error Messages
-description: ParseError structure, default messages, custom message annotations, and refinement failure kinds.
+description: Learn how Schema parsing emits structured ParseError values, default messages, custom message annotations, and refinement failure kinds for improved error reporting.
 ---
 
 # Error Messages

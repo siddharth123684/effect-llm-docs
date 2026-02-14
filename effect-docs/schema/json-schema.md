@@ -1,6 +1,6 @@
 ---
 title: JSON Schema
-description: JSONSchema.make for generating JSON Schema Draft 07 documents from Effect schemas.
+description: Learn how to use JSONSchema.make to generate JSON Schema documents from Effect schemas, including support for Draft 07, 2019-09, 2020-12, and OpenAPI 3.1 targets.
 ---
 
 # JSON Schema

@@ -1,6 +1,6 @@
 ---
 title: Schedule Combinators
-description: How to combine and transform schedules with union, intersect, jitter, and filter operators.
+description: Learn Schedule.union, Schedule.intersect, Schedule.jitter, and Schedule.filter to combine and transform retry and repeat policies when building resilient Effect applications and services.
 ---
 
 # Schedule Combinators

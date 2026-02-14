@@ -1,6 +1,6 @@
 ---
 title: Parallel and Sequential Errors
-description: How Effect preserves parallel and sequential failure causes in execution.
+description: Learn how Effect preserves parallel and sequential failure causes in Cause for concurrent execution, finalization, and error composition in Effect programs.
 ---
 
 # Parallel and Sequential Errors

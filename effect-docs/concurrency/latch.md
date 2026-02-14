@@ -1,6 +1,6 @@
 ---
 title: Latch
-description: Synchronization gate for fibers to wait until a setup step completes before proceeding.
+description: Learn Latch and Latch.await to synchronize fibers until a setup step completes before proceeding with coordinated concurrent workflows in Effect.
 ---
 
 # Latch

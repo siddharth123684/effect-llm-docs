@@ -1,6 +1,6 @@
 ---
 title: Layer Memoization
-description: How Effect reuses layer instances across a dependency graph based on reference equality.
+description: Learn how Effect reuses Layer instances across a dependency graph based on reference equality for efficient service construction and Layer composition.
 ---
 
 # Layer Memoization

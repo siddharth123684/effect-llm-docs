@@ -1,6 +1,6 @@
 ---
 title: Annotations
-description: Schema metadata for validation errors, documentation, JSON Schema, and compiler behavior.
+description: Learn how to attach schema annotations to customize validation errors, documentation, JSON Schema generation, and compiler behavior including identifier, title, description, and message.
 ---
 
 # Annotations

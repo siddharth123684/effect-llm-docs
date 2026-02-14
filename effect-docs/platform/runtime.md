@@ -1,6 +1,6 @@
 ---
 title: Runtime
-description: How runMain executes Effect programs with platform runtime behavior including exit codes, signals, and teardown.
+description: Learn NodeRuntime.runMain with exit codes, signal handling, disableErrorReporting, disablePrettyLogger, and teardown for platform-aware Effect program execution and graceful shutdown in Node.js.
 ---
 
 # Runtime

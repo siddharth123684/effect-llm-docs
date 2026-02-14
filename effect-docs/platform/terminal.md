@@ -1,6 +1,6 @@
 ---
 title: Terminal
-description: How to use the Terminal service for reading and writing standard input/output in Effect programs.
+description: Learn Terminal.Terminal, terminal.display, terminal.readLine, NodeTerminal.layer, and NodeRuntime.runMain for terminal I/O and interactive CLI applications when building Effect applications and services.
 ---
 
 # Terminal

@@ -1,6 +1,6 @@
 ---
 title: Default Services
-description: Effect's built-in Clock, Console, Random, ConfigProvider, and Tracer services and how to override them.
+description: Learn Effect's built-in Clock, Console, Random, ConfigProvider, and Tracer services and how to override them at runtime for testing and configuration.
 ---
 
 # Default Services

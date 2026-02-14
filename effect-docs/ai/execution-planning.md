@@ -1,6 +1,6 @@
 ---
 title: Execution Planning for LLMs
-description: ExecutionPlan for retries, fallback models, and structured error handling in LLM interactions.
+description: Learn ExecutionPlan.make with Schedule.exponential, attempts, and fallback providers for retries and resilient LLM workflows via Effect.withExecutionPlan when using Effect AI.
 ---
 
 # Execution Planning for LLMs

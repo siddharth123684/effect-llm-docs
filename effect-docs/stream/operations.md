@@ -1,6 +1,6 @@
 ---
 title: Operations
-description: Common Stream operators for observing, transforming, combining, partitioning, and rate-controlling stream values.
+description: Learn Stream operators including tap, map, filter, flatMap, zip, merge, partition, groupBy, broadcast, buffer, debounce, and throttle for transformation, combination, and rate control.
 ---
 
 # Operations

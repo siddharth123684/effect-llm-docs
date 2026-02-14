@@ -1,6 +1,6 @@
 ---
 title: Importing Effect
-description: Installing the effect package and basic named imports for Effect APIs.
+description: Learn to install the effect package and use named imports for Effect, Effect.gen, pipe, and other core APIs in your project.
 ---
 
 # Importing Effect

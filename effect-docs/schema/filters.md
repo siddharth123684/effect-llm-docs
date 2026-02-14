@@ -1,6 +1,6 @@
 ---
 title: Filters
-description: Schema.filter for validation rules that refine accepted values without changing inferred type.
+description: Learn how to use Schema.filter to add validation rules that refine accepted values without changing the inferred type, with predicate return semantics for custom messages.
 ---
 
 # Filters

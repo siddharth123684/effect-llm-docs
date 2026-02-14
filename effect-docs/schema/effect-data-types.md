@@ -1,6 +1,6 @@
 ---
 title: Effect Data Types
-description: Schema adapters for Data, Config, Option, Either, Exit, collections, Duration, and Redacted.
+description: Learn how to use Effect Schema adapters for Schema.Data, Schema.Config, Option, Either, Exit, collections, Duration, and Redacted to move between runtime structures and serializable representations.
 ---
 
 # Effect Data Types

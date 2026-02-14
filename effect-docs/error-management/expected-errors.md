@@ -1,6 +1,6 @@
 ---
 title: Expected Errors
-description: Domain-level failures modeled in the typed Error channel with Effect.fail.
+description: Learn to model domain-level failures with Effect.fail and Data.TaggedError in the typed Error channel for compile-time safety in Effect programs.
 ---
 
 # Expected Errors

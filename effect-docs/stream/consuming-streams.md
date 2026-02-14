@@ -1,6 +1,6 @@
 ---
 title: Consuming Streams
-description: Running streams to produce results with runCollect, runForEach, runFold, and sink-driven consumption.
+description: Learn how to run streams and produce results using runCollect, runForEach, runFold, and Stream.run with Sink for element gathering and consumption.
 ---
 
 # Consuming Streams

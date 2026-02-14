@@ -1,6 +1,6 @@
 ---
 title: Built-In Schedules
-description: Effect's built-in recurrence strategies including once, recurs, spaced, exponential, and fibonacci.
+description: Learn Effect's built-in schedules: Schedule.once, Schedule.recurs, Schedule.spaced, Schedule.exponential, and Schedule.fibonacci for retry and repeat workflows when building Effect programs and services.
 ---
 
 # Built-In Schedules

@@ -1,6 +1,6 @@
 ---
 title: Managing Layers
-description: How to build and compose dependency graphs for Effect services using Layer types and operators.
+description: Learn to build and compose dependency graphs with Layer.merge, Layer.provide, and Layer.provideMerge for Effect services and type-safe dependency injection in applications.
 ---
 
 # Managing Layers

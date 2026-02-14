@@ -1,6 +1,6 @@
 ---
 title: Pattern Matching
-description: Effect Match module for type-safe branching with exhaustiveness and tagged unions.
+description: Learn Match.type, Match.value, Match.when, Match.tag, and Match.exhaustive for type-safe branching, exhaustiveness checking, and discriminated union handling when building Effect programs.
 ---
 
 # Pattern Matching

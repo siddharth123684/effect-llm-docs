@@ -1,6 +1,6 @@
 ---
 title: Batching
-description: Groups compatible requests and resolves them together, reducing repeated work and API calls.
+description: Learn Request, RequestResolver, and Effect.request to batch compatible requests and reduce repeated work across concurrent Effect programs efficiently and safely.
 ---
 
 # Batching

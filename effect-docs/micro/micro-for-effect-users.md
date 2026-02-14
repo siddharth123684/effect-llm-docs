@@ -1,6 +1,6 @@
 ---
 title: Micro for Effect Users
-description: Migration guide from Effect to Micro with API differences and compatibility notes.
+description: Compare Effect vs Micro APIs including Micro.service, Micro.provideContext, MicroExit, MicroCause, and MicroScope when migrating Effect-style code to the lightweight Micro runtime.
 ---
 
 # Micro for Effect Users

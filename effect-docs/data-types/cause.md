@@ -1,6 +1,6 @@
 ---
 title: Cause
-description: Cause captures full failure information including defects, interruptions, and composed failures.
+description: Learn Cause.fail, Cause.die, Cause.match, and Cause.pretty to capture and inspect full failure information including defects, interruptions, and composed failures in Effect.
 ---
 
 # Cause

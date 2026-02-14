@@ -1,6 +1,6 @@
 ---
 title: Managing Services
-description: How to create, use, and provide Effect services via Context.Tag and Effect.provideService.
+description: Learn to create, use, and provide Effect services via Context.Tag, Effect.provideService, and Layer for type-safe dependency injection in Effect programs.
 ---
 
 # Managing Services

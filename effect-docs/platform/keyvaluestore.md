@@ -1,6 +1,6 @@
 ---
 title: KeyValueStore
-description: Effectful key-value storage interface with typed schemas and optional persistence layers.
+description: Learn KeyValueStore service with get, set, remove, forSchema, layerMemory, and layerFileSystem for typed key-value storage when building Effect applications and services.
 ---
 
 # KeyValueStore

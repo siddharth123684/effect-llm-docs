@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Effect's finalization APIs and acquire-use-release pattern for reliable resource cleanup.
+description: Learn Effect.ensuring, Effect.onExit, Effect.onError, and the acquire-use-release pattern for reliable resource cleanup when building safe Effect applications, services, and pipelines.
 ---
 
 # Introduction

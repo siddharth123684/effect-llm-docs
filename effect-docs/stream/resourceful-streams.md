@@ -1,6 +1,6 @@
 ---
 title: Resourceful Streams
-description: Effect Stream constructors for scoped resources with acquire-release and finalizer patterns.
+description: Learn Stream.acquireRelease, Stream.finalizer, and Stream.ensuring to manage scoped resources, cleanup logic, and post-finalization actions when building resourceful Effect stream pipelines.
 ---
 
 # Resourceful Streams

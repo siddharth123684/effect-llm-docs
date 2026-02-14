@@ -1,6 +1,6 @@
 ---
 title: Deferred
-description: One-time synchronization primitive for fiber coordination, similar to Promise with explicit types.
+description: Learn Deferred.make, Deferred.succeed, Deferred.fail, and Deferred.await for one-time fiber coordination and handoff between concurrent fibers when building concurrent Effect programs.
 ---
 
 # Deferred

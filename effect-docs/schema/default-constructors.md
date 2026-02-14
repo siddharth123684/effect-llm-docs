@@ -1,6 +1,6 @@
 ---
 title: Default Constructors
-description: schema.make for creating decoded-type values from Struct, Record, filters, and branded schemas.
+description: Learn how to use schema.make to create decoded-type values from Struct, Record, filters, and branded schemas, with validation for post-decode types.
 ---
 
 # Default Constructors

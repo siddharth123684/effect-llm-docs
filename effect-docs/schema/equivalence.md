@@ -1,6 +1,6 @@
 ---
 title: Equivalence
-description: Schema.equivalence generates value comparison functions from schema rules with custom annotations.
+description: Learn how to use Schema.equivalence to generate value comparison functions from schema rules, with custom annotations for Equivalence behavior in Effect Schema.
 ---
 
 # Equivalence

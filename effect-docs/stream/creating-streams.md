@@ -1,6 +1,6 @@
 ---
 title: Creating Streams
-description: Effect Stream constructors for pure values, effects, callbacks, iterables, time, and concurrency primitives.
+description: Learn Stream constructors including make, fromEffect, async, unfold, paginate, fromQueue, fromPubSub, and repeatEffectOption for pure values, effects, callbacks, iterables, and concurrency primitives.
 ---
 
 # Creating Streams

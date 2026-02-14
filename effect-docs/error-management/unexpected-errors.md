@@ -1,6 +1,6 @@
 ---
 title: Unexpected Errors
-description: Defects and unrecoverable failures outside the typed error channel.
+description: Learn Effect.die, Effect.dieMessage, and defect handling for unrecoverable failures outside the typed error channel when building robust Effect applications and services.
 ---
 
 # Unexpected Errors

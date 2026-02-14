@@ -1,6 +1,6 @@
 ---
 title: Fibers
-description: Lightweight virtual threads for low-overhead concurrency with cooperative scheduling and interruption.
+description: Learn Effect's Fiber model for lightweight concurrency with cooperative scheduling, interruption, Fiber.join, and resource-safe execution handles when building Effect programs.
 ---
 
 # Fibers

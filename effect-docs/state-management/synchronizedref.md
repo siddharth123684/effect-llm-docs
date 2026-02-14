@@ -1,6 +1,6 @@
 ---
 title: SynchronizedRef
-description: Mutable reference supporting atomic effectful updates for concurrent shared state.
+description: Learn SynchronizedRef and updateEffect for atomic effectful updates to shared state across concurrent fibers when building safe concurrent Effect programs.
 ---
 
 # SynchronizedRef

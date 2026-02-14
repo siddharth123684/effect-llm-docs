@@ -1,6 +1,6 @@
 ---
 title: Basic Usage
-description: Schema constructors, decodeUnknownSync, encodeSync, validateSync, and primitive types.
+description: Learn Schema constructors, decodeUnknownSync, encodeSync, validateSync, and primitive types including Literal, TemplateLiteral, Struct, and Record for defining and validating data shapes.
 ---
 
 # Basic Usage

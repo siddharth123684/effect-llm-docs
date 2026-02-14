@@ -1,6 +1,6 @@
 ---
 title: Semaphore
-description: Synchronization primitive for controlling concurrent access via permit-based resource management.
+description: Learn Semaphore and withPermits to control concurrent access via permit-based resource management and rate limiting when building safe Effect programs.
 ---
 
 # Semaphore

@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: Setup and installation of Effect for Node.js, Deno, Bun, and Vite projects.
+description: Learn to set up Effect for Node.js, Deno, Bun, and Vite projects with TypeScript 5.4+ and strict compiler options for type-safe development.
 ---
 
 # Installation

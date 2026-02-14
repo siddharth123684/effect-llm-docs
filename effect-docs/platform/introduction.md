@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Overview of Effect Platform's cross-platform services for Node.js, Deno, Bun, and browsers.
+description: Learn FileSystem, Terminal, Path, Command, KeyValueStore, and PlatformLogger with NodeContext, NodeRuntime, and platform-specific layers for building cross-platform Effect applications and services.
 ---
 
 # Introduction

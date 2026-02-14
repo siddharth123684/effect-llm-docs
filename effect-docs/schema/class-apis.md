@@ -1,6 +1,6 @@
 ---
 title: Class APIs
-description: Schema.Class for defining schema and class type together with methods and Data.Class support.
+description: Learn how to use Schema.Class to define schema and class type together in one place, with methods, Data.Class support, and direct constructor validation.
 ---
 
 # Class APIs

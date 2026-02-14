@@ -1,6 +1,6 @@
 ---
 title: Matching
-description: Effect.match and matchCause for handling success and failure branches in one place.
+description: Learn Effect.match, Effect.matchEffect, and Effect.matchCause to handle success and failure branches with pure or effectful handlers when building Effect programs.
 ---
 
 # Matching

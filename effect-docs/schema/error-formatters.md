@@ -1,6 +1,6 @@
 ---
 title: Error Formatters
-description: TreeFormatter and ArrayFormatter for rendering Effect Schema parse errors.
+description: Learn how to use ParseResult.TreeFormatter and ArrayFormatter to render Effect Schema parse errors with hierarchical or array output for debugging.
 ---
 
 # Error Formatters

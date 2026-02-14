@@ -1,6 +1,6 @@
 ---
 title: Cron
-description: Calendar-based schedules using UNIX cron expressions in Effect.
+description: Learn Cron.make and Cron.parse to create calendar-based schedules from UNIX cron expressions for Effect.repeat and scheduled workflows when using Effect.
 ---
 
 # Cron

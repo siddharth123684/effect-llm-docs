@@ -1,6 +1,6 @@
 ---
 title: Exit
-description: Schema.Exit for JSON-serializable conversion of Exit values with failure, success, and defect schemas.
+description: Learn Schema.Exit and Schema.ExitFromSelf for JSON-serializable conversion of Exit values with failure, success, and defect schemas across boundaries in Effect Schema.
 ---
 
 # Exit

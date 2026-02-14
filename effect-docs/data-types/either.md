@@ -1,6 +1,6 @@
 ---
 title: Either
-description: Either represents Left or Right for mutually exclusive branching and lightweight discriminated unions.
+description: Learn Either.right, Either.left, Either.match, Either.map, and Either.gen for mutually exclusive Left/Right branching and lightweight discriminated unions when building Effect programs.
 ---
 
 # Either

@@ -1,6 +1,6 @@
 ---
 title: Using Generators
-description: Effect.gen for async/await-style effectful workflows with yield* for sequencing.
+description: Learn Effect.gen for async/await-style effectful workflows using yield* to sequence effects, bind success values, and write readable imperative Effect code.
 ---
 
 # Using Generators

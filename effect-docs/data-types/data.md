@@ -1,6 +1,6 @@
 ---
 title: Data
-description: Data provides constructors for immutable value-based types with built-in Equal and Hash.
+description: Learn Data.struct, Data.tagged, Data.TaggedEnum, and Data.TaggedError for immutable value-based types with built-in Equal and Hash semantics when building Effect programs.
 ---
 
 # Data

@@ -1,6 +1,6 @@
 ---
 title: Retrying
-description: Retry policies with Effect.retry and Effect.retryOrElse for transient failures.
+description: Learn Effect.retry and Effect.retryOrElse with Schedule-based policies to recover from transient failures and build resilient, fault-tolerant Effect applications reliably and safely.
 ---
 
 # Retrying

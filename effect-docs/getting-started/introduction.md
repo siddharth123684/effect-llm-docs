@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Overview of Effect as a TypeScript library for composable, type-safe programs with explicit error handling and resource management.
+description: Learn Effect as a TypeScript library for composable, type-safe programs with explicit error handling, resource management, and fiber-based concurrency for reliable applications.
 ---
 
 # Introduction

@@ -1,6 +1,6 @@
 ---
 title: Examples
-description: Practical scheduling patterns for timeouts, retries, and periodic work in Effect.
+description: Learn practical patterns combining Effect.timeout, Effect.retry, and Schedule for API resilience, periodic work, and robust retry workflows when building Effect programs.
 ---
 
 # Examples

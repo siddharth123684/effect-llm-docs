@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: Defining schemas, decoding, encoding, validating, and configuring parsing with effect/Schema.
+description: Learn how to define schemas with Schema.Struct, decode external input, encode domain values, validate, and configure parsing when using effect/Schema.
 ---
 
 # Getting Started

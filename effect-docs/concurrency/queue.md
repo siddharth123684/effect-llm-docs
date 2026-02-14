@@ -1,6 +1,6 @@
 ---
 title: Queue
-description: Fiber-friendly in-memory queue for async coordination with back-pressure and typed handoff.
+description: Learn Queue.bounded, Queue.dropping, Queue.offer, and Queue.take for fiber-friendly async coordination with back-pressure and bounded buffers when building concurrent Effect programs.
 ---
 
 # Queue

@@ -1,6 +1,6 @@
 ---
 title: Basic Concurrency
-description: Effect's concurrency model with fibers, concurrency options, racing APIs, and interruption.
+description: Learn Effect.all, Effect.forEach, Effect.race, and concurrency options for fiber-based concurrency, parallelism, and safe interruption when building scalable Effect applications and services.
 ---
 
 # Basic Concurrency

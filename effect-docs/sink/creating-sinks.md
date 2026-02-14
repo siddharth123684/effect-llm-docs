@@ -1,6 +1,6 @@
 ---
 title: Creating Sinks
-description: Sink constructors for selection, aggregation, collecting, folding, and effectful consumption.
+description: Learn Sink constructors including head, take, count, sum, collectAll, foldLeft, fold, foldWeighted, forEach, succeed, and fail for selection, aggregation, folding, and effectful consumption.
 ---
 
 # Creating Sinks

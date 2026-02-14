@@ -1,6 +1,6 @@
 ---
 title: Projections
-description: typeSchema and encodedSchema for deriving Type or Encoded views from existing schemas.
+description: Learn how to use Schema.typeSchema and Schema.encodedSchema to derive Type or Encoded views from existing schemas and reuse structure without transformation layers.
 ---
 
 # Projections

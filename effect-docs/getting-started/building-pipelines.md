@@ -1,6 +1,6 @@
 ---
 title: Building Pipelines
-description: Composing transformations and effectful steps with pipe and left-to-right data flow.
+description: Learn to compose transformations and effectful steps using pipe, Effect.flatMap, and left-to-right data flow for readable, maintainable Effect workflows and pipelines.
 ---
 
 # Building Pipelines
