@@ -101,56 +101,56 @@ Status legend:
 - [x] Creating Streams
 - [x] Consuming Streams
 - [x] Error Handling
-- [ ] Operations
-- [ ] Resourceful Streams
+- [x] Operations
+- [x] Resourceful Streams
 
 ## sink
 
-- [ ] Introduction
-- [ ] Creating Sinks
-- [ ] Operations
-- [ ] Concurrency
-- [ ] Leftovers
+- [x] Introduction
+- [x] Creating Sinks
+- [x] Operations
+- [x] Concurrency
+- [x] Leftovers
 
 ## testing
 
-- [ ] TestClock
+- [x] TestClock
 
 ## code-style
 
-- [ ] Guidelines
-- [ ] Dual APIs
-- [ ] Branded Types
-- [ ] Pattern Matching
-- [ ] Excessive Nesting
+- [x] Guidelines
+- [x] Dual APIs
+- [x] Branded Types
+- [x] Pattern Matching
+- [x] Excessive Nesting
 
 ## data-types
 
-- [ ] BigDecimal
-- [ ] Cause
-- [ ] Chunk
-- [ ] Data
-- [ ] DateTime
-- [ ] Duration
-- [ ] Either
-- [ ] Exit
-- [ ] HashSet
-- [ ] Option
-- [ ] Redacted
+- [x] BigDecimal
+- [x] Cause
+- [x] Chunk
+- [x] Data
+- [x] DateTime
+- [x] Duration
+- [x] Either
+- [x] Exit
+- [x] HashSet
+- [x] Option
+- [x] Redacted
 
 ## traits
 
-- [ ] Equal
-- [ ] Hash
+- [x] Equal
+- [x] Hash
 
 ## schema
 
-- [ ] Equivalence
-- [ ] Order
-- [ ] Introduction
-- [ ] Getting Started
-- [ ] Basic Usage
-- [ ] Filters
+- [x] Equivalence
+- [x] Order
+- [x] Introduction
+- [x] Getting Started
+- [x] Basic Usage
+- [x] Filters
 - [ ] Advanced Usage
 - [ ] Projections
 - [ ] Transformations
