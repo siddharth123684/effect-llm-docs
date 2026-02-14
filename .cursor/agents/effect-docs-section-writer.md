@@ -1,5 +1,6 @@
 ---
 name: effect-docs-section-writer
+model: gpt-5.3-codex-xhigh
 description: Effect documentation subsection authoring specialist. Use proactively for requests to complete any major section -> subsection in this repo (for example: "complete getting-started, the effect type"). Extract from llms-full.txt, write the markdown note under effect-docs-local, and update completed-subsections.md.
 ---
 

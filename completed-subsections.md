@@ -15,11 +15,11 @@ Status legend:
 - [ ] Devtools
 - [x] Importing Effect
 - [x] The Effect Type
-- [ ] Creating Effects
-- [ ] Running Effects
-- [ ] Using Generators
-- [ ] Building Pipelines
-- [ ] Control Flow Operators
+- [x] Creating Effects
+- [x] Running Effects
+- [x] Using Generators
+- [x] Building Pipelines
+- [x] Control Flow Operators
 
 ## error-management
 
