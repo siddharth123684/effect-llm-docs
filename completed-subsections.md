@@ -23,18 +23,18 @@ Status legend:
 
 ## error-management
 
-- [ ] Two Types of Errors
-- [ ] Expected Errors
-- [ ] Unexpected Errors
-- [ ] Fallback
-- [ ] Matching
-- [ ] Retrying
-- [ ] Timing Out
-- [ ] Sandboxing
-- [ ] Error Accumulation
-- [ ] Error Channel Operations
-- [ ] Parallel and Sequential Errors
-- [ ] Yieldable Errors
+- [x] Two Types of Errors
+- [x] Expected Errors
+- [x] Unexpected Errors
+- [x] Fallback
+- [x] Matching
+- [x] Retrying
+- [x] Timing Out
+- [x] Sandboxing
+- [x] Error Accumulation
+- [x] Error Channel Operations
+- [x] Parallel and Sequential Errors
+- [x] Yieldable Errors
 
 ## requirements-management
 
