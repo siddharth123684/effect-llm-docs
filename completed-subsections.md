@@ -14,7 +14,7 @@ Status legend:
 - [ ] Installation
 - [ ] Devtools
 - [x] Importing Effect
-- [ ] The Effect Type
+- [x] The Effect Type
 - [ ] Creating Effects
 - [ ] Running Effects
 - [ ] Using Generators
