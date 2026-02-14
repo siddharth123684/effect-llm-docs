@@ -151,18 +151,18 @@ Status legend:
 - [x] Getting Started
 - [x] Basic Usage
 - [x] Filters
-- [ ] Advanced Usage
-- [ ] Projections
-- [ ] Transformations
-- [ ] Annotations
-- [ ] Error Messages
-- [ ] Error Formatters
-- [ ] Class APIs
-- [ ] Default Constructors
+- [x] Advanced Usage
+- [x] Projections
+- [x] Transformations
+- [x] Annotations
+- [x] Error Messages
+- [x] Error Formatters
+- [x] Class APIs
+- [x] Default Constructors
 - [ ] Effect Data Types
-- [ ] Standard Schema
-- [ ] Arbitrary
-- [ ] JSON Schema
+- [x] Standard Schema
+- [x] Arbitrary
+- [x] JSON Schema
 - [ ] Pretty Printer
 
 ## ai
