@@ -159,30 +159,30 @@ Status legend:
 - [x] Error Formatters
 - [x] Class APIs
 - [x] Default Constructors
-- [ ] Effect Data Types
+- [x] Effect Data Types
 - [x] Standard Schema
 - [x] Arbitrary
 - [x] JSON Schema
-- [ ] Pretty Printer
+- [x] Pretty Printer
 
 ## ai
 
-- [ ] Introduction
+- [x] Introduction
 - [x] Getting Started
 - [x] Execution Planning
 - [x] Tool Use
 
 ## micro
 
-- [ ] Getting Started
-- [ ] Micro for Effect Users
+- [x] Getting Started
+- [x] Micro for Effect Users
 
 ## platform
 
-- [ ] Introduction
-- [ ] Command
-- [ ] FileSystem
-- [ ] KeyValueStore
+- [x] Introduction
+- [x] Command
+- [x] FileSystem
+- [x] KeyValueStore
 - [ ] Path
 - [ ] PlatformLogger
 - [ ] Runtime
