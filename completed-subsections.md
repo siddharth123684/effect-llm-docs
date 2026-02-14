@@ -183,7 +183,7 @@ Status legend:
 - [x] Command
 - [x] FileSystem
 - [x] KeyValueStore
-- [ ] Path
-- [ ] PlatformLogger
-- [ ] Runtime
-- [ ] Terminal
+- [x] Path
+- [x] PlatformLogger
+- [x] Runtime
+- [x] Terminal
