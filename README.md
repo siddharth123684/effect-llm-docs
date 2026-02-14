@@ -1,6 +1,8 @@
 # Local Library Docs for LLM Agents
 
-A step-by-step guide to building retrieval-optimized local documentation using AI subagents.
+Generate 118 library-specific docs in parallel using AI subagents. Achieves 100% pass rate on coding tasks vs 53-79% with retrieval tools.
+
+A step-by-step guide to building retrieval-optimised local documentation using AI subagents.
 
 This repo uses Effect as the worked example, but the pattern applies to any library. Swap the source file, folder names, and section taxonomy for your own stack.
 
@@ -184,7 +186,7 @@ run a pass to make all descriptions more descriptive — 20-35 words, concrete A
 
 ## Step 6: Build the Pipe Index
 
-Create a compressed docs index that can be embedded in `AGENTS.md` or used as passive context. The format is pipe-delimited to minimize token usage:
+Create a compressed docs index that can be embedded in `AGENTS.md` or used as passive context. The format is pipe-delimited to minimise token usage:
 
 ```text
 [Effect Docs Index]|root: ./effect-docs
@@ -242,8 +244,15 @@ This pattern handled all 118 subsections across 23 parallel batches without manu
 
 - **Tracker collisions**: Solved by read-before-write with retry (see above).
 - **Path mismatches**: Make sure the subagent, prompts, and pipe index all point to the same docs folder.
-- **Frontmatter drift**: Run a bulk normalization pass after major generation runs.
+- **Frontmatter drift**: Run a bulk normalisation pass after major generation runs.
 - **Unexpected git commits**: Some subagent runtimes auto-commit. Check `git status` after each batch.
+
+## License
+
+This project is dedicated to the public domain under `CC0 1.0`.
+
+Take whatever you want: use, copy, modify, and distribute it for any purpose without asking permission.
+See `LICENSE` for details.
 
 ---
 
